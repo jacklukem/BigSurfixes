@@ -1,13 +1,17 @@
 # BigSurfixes
 Big Sur fixes for unsupported Mac
+
 to support Big Sur booting on non-APFS mac or APFS firmware mac
 
 BigSur added the BootKernelExtensions.kc as the new kernelcache with new command kmutil
+
 but kextcache command and prelinkedkernel are still working
+
 to apply the prelinkedkernel fix after BigSur Install:
 
-diskutil mount Preboot
 diskutil apfs list
+
+diskutil mount Preboot
 
 Locate your BigSur Data Volume UUID
 
