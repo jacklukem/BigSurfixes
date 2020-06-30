@@ -25,7 +25,7 @@ replace the "patched prelinkedkernel beta1" in this path:
 
 For the "installer fix" make a BigSur USB Installer with createinstallmedia:
 
-
+sudo /Applications/Install\ macOS\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/BigSurInstaller/
 
 and replace this file:
 
