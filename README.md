@@ -32,3 +32,9 @@ sudo /Applications/Install\ macOS\ Beta.app/Contents/Resources/createinstallmedi
 and replace the "installer fix" file in this path:
 
 /Volumes/USBInstallerBigSur/Library/Preferences/SystemConfiguration/
+
+I also included some "legacyusb fix for installer"
+
+for rebuild BigSur kernelcache from single user mode copy both the .sh files on your home folder that is the / BigSur Label - Data / Users / yourusername /
+
+then from single user mode type : chmod 755 kcsingleusermode.sh ; ./kcsingleusermode.sh
