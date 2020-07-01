@@ -29,6 +29,6 @@ For the "installer fix" make a BigSur USB Installer with createinstallmedia:
 
 sudo /Applications/Install\ macOS\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/BigSurInstaller/
 
-and replace this file:
+and replace the "installer fix" file in this path:
 
 /Volumes/USBInstallerBigSur/Library/Preferences/SystemConfiguration/
