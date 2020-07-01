@@ -19,11 +19,11 @@ Locate your BigSur Data Volume UUID
 
 replace the "prelinkedkernel fix" file in this path:
 
-/Volumes/UUID-BigSur/System/Library/CoreServices/
+/Volumes/Preboot/UUID-BigSur/System/Library/CoreServices/
 
 replace the "patched prelinkedkernel beta1" in this path:
 
-/Volumes/UUID-BigSur/System/Library/PrelinkedKernels/
+/Volumes/Preboot/UUID-BigSur/System/Library/PrelinkedKernels/
 
 For the "installer fix" make a BigSur USB Installer with createinstallmedia:
 
