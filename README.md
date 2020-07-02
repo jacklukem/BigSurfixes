@@ -21,6 +21,8 @@ replace the "prelinkedkernel fix" file in this path:
 
 /Volumes/Preboot/UUID-BigSur/System/Library/CoreServices/
 
+replace it also here: /Volumes/Preboot/UUID-BigSur/Library/Preferences/SystemConfiguration/
+
 replace the "patched prelinkedkernel beta1" in this path:
 
 /Volumes/Preboot/UUID-BigSur/System/Library/PrelinkedKernels/
