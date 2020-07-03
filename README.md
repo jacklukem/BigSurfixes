@@ -47,4 +47,6 @@ Note: if you use my "prelinkedkernel fix command" directly from BigSur the Prebo
 
 /System/Volumes/Preboot/
 
+(can notice this directly from BigSur with "ls /System/Volumes/" )
+
 So I uploaded those modified scripts to run also directly from BigSur normal booting.
