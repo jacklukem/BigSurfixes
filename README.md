@@ -42,3 +42,9 @@ for rebuild BigSur kernelcache from single user mode copy both the .sh files on 
 then from single user mode type : chmod 755 kcsingleuser.sh ; ./kcsingleuser.sh
 
 (credit to ASentientBot for apfs_boot_util to mount the BigSur Data Volume from single user mode)
+
+Note, if you use my prelinkedkernel fix command directly from BigSur the Preboot Volume mount point is this:
+
+/System/Volumes/Preboot/
+
+I uploaded those scripts to run also directly from BigSur normal booting
