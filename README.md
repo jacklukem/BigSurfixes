@@ -55,10 +55,20 @@ Note: if you use my "prelinkedkernel fix command" directly from BigSur the Prebo
 
 So I uploaded those modified scripts to run also directly from BigSur normal booting.
 
-BigSur introduced also a new SIP for sealing the System Volume, to disable from any APFS firmware Mac simply boot the USB BigSur Installer, open terminal and type: "csrutil authenticated-root disable"
+BigSur introduced also a new SIP for sealing the System Volume, to disable from any APFS firmware Mac simply boot the USB BigSur Installer (or BigSur Recovery), open terminal and type: "csrutil authenticated-root disable"
 
 While instead to disable "csrutil authenticated-root" from a non-APFS or legacy USB mac, copy the "csrutil2" binary file to any USB MacOS Installer (minimum El Capitan when apple introduced SIP but should use an USB Catalina Installer because it has more recent SDK) in its root folder / , then boot from the macOS USB Installer, open a recovery terminal and type:
 
 cd / ; chmod 755 csrutil2
+
+./csrutil2 authenticated-root disable
+
+Otherwise if you use a Catalina Recovery, copy the file on an external USB drive, then from Catalina recovery terminal:
+
+cd /Volumes/ ; ls
+
+cd YourUSBLabel
+
+chmod 755 csrutil2
 
 ./csrutil2 authenticated-root disable
