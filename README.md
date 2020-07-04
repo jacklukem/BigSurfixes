@@ -13,6 +13,10 @@ to apply the prelinkedkernel fix after BigSur Install:
 
 diskutil apfs list
 
+diskutil list | grep Preboot
+
+(if have multiple separated APFS containers, just mount the largest MB Preboot Volume)
+
 diskutil mount Preboot
 
 Locate your BigSur Data Volume UUID
