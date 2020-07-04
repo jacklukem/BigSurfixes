@@ -59,6 +59,6 @@ BigSur introduced also a new SIP for sealing the System Volume, to disable from 
 
 While instead to disable "csrutil authenticated-root" from a non-APFS or legacy USB mac, copy the "csrutil2" binary file to any MacOS Installer (minimum El Capitan when apple introduced SIP), then boot from the macOS USB Installer, open a recovery terminal and type:
 
-cd /
-chmod 755 csrutil2
+cd / ; chmod 755 csrutil2
+
 ./csrutil2 authenticated-root disable
