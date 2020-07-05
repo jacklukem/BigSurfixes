@@ -72,3 +72,5 @@ cd YourUSBLabel
 chmod 755 csrutil2
 
 ./csrutil2 authenticated-root disable
+
+(Note: for any raw file downloaded to use them just remove the .dms extension that is set from github)
