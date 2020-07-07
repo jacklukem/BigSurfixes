@@ -34,7 +34,7 @@ elif [ -e /System/Volumes/Preboot/*/boot/System/Library/KernelCollections/ ]
 then
 curl https://github.com/jacklukem/BigSurfixes/raw/master/BootKernelExtensions%20fix/com.apple.Boot.plist --progress-bar -L -o /private/tmp/com.apple.Boot.plist
 curl https://github.com/jacklukem/BigSurfixes/blob/master/patched%20prelinkedkernel%20beta1/prelinkedkernel%20sound%20wifi%20airdrop%20beta1/BootKernelExtensions.kc.zip?raw=true --progress-bar -L -o /private/tmp/BootKernelExtensions.zip
-cd /Volumes/Preboot/*/boot/System/Library/KernelCollections/
+cd /System/Volumes/Preboot/*/boot/System/Library/KernelCollections/
 sudo unzip /private/tmp/BootKernelExtensions.zip -d .
 cd .. ; cd .. ; cd .. ; cd ..
 cd System/Library/CoreServices/
