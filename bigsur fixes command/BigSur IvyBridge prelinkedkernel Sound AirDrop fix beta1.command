@@ -21,7 +21,7 @@ diskutil mount Preboot
 if [ -e /Volumes/Preboot/*/boot/System/Library/KernelCollections/ ]
 then
 curl https://github.com/jacklukem/BigSurfixes/raw/master/prelinkedkernel%20fix/com.apple.Boot.plist --progress-bar -L -o /private/tmp/com.apple.Boot.plist
-curl https://github.com/jacklukem/BigSurfixes/blob/master/patched%20prelinkedkernel%20beta1/prelinkedkernel%20sound%20wifi%20airdrop%20beta1/prelinkedkernel.zip?raw=true?raw=true --progress-bar -L -o /private/tmp/prelinkedkernel.zip
+curl https://github.com/jacklukem/BigSurfixes/blob/master/patched%20prelinkedkernel%20beta1/prelinkedkernel%20sound%20wifi%20airdrop%20beta1/prelinkedkernel.zip?raw=true --progress-bar -L -o /private/tmp/prelinkedkernel.zip
 cd /Volumes/Preboot/*/boot/System/Library/KernelCollections/
 cd .. ; cd .. ; cd .. ; cd ..
 cd System/Library/CoreServices/
@@ -35,7 +35,7 @@ echo "\nAfter reboot your BigSur should use the prelinkedkernel instead of BootK
 elif [ -e /System/Volumes/Preboot/*/boot/System/Library/KernelCollections/ ]
 then
 curl https://github.com/jacklukem/BigSurfixes/raw/master/prelinkedkernel%20fix/com.apple.Boot.plist --progress-bar -L -o /private/tmp/com.apple.Boot.plist
-curl https://github.com/jacklukem/BigSurfixes/blob/master/patched%20prelinkedkernel%20beta1/prelinkedkernel%20sound%20wifi%20airdrop%20beta1/prelinkedkernel.zip?raw=true?raw=true --progress-bar -L -o /private/tmp/prelinkedkernel.zip
+curl https://github.com/jacklukem/BigSurfixes/blob/master/patched%20prelinkedkernel%20beta1/prelinkedkernel%20sound%20wifi%20airdrop%20beta1/prelinkedkernel.zip?raw=true --progress-bar -L -o /private/tmp/prelinkedkernel.zip
 cd /System/Volumes/Preboot/*/boot/System/Library/KernelCollections/
 cd .. ; cd .. ; cd .. ; cd ..
 cd System/Library/CoreServices/
@@ -45,7 +45,7 @@ cd ..
 cd PrelinkedKernels
 sudo unzip /private/tmp/prelinkedkernel.zip -d .
 echo "Done"
-echo "\nAfter reboot your BigSur should use the prelinkedkernel instead of BootKernelExtensions.kc\n and AirDrop channel should work\n"
+echo "\nAfter reboot your BigSur should use the prelinkedkernel instead of BootKernelExtensions.kc\n and Sound, Wifi and AirDrop channel should work\n"
 else
 echo "\nWarning: you have multiple separate APFS containers to find your correct BigSur APFS Preboot type:\n\ndiskutil unmount Preboot\ndiskutil list | grep Preboot\n(select the largest MB Preboot and mount)\ndiskutil mount diskXsY\n\n"
 fi
