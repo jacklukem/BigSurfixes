@@ -76,3 +76,7 @@ chmod 755 csrutil2
 ./csrutil2 authenticated-root disable
 
 (Note: for any raw file downloaded to use them just remove the .dms extension that is set from github)
+
+My prelinkedkernel fixes still work on Big Sur beta 2 for targeting group of machines use these:
+
+
