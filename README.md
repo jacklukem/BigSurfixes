@@ -83,4 +83,5 @@ any Ivy Bridge Mac to fix Wifi and AirDrop:
 https://github.com/jacklukem/BigSurfixes/blob/master/bigsur%20fixes%20command/BigSur%20IvyBridge%20prelinkedkernel%20Sound%20AirDrop%20fix%20beta1.command.zip
 
 any non-APFS Mac or legacy USB mac to fix Wifi:
+https://github.com/jacklukem/BigSurfixes/blob/master/prelinkedkernel%20fix4%20beta1.command
 
