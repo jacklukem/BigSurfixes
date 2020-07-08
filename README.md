@@ -85,3 +85,5 @@ https://github.com/jacklukem/BigSurfixes/blob/master/bigsur%20fixes%20command/Bi
 any non-APFS Mac or legacy USB mac to fix telemetry, ethernet and Wifi:
 https://github.com/jacklukem/BigSurfixes/blob/master/prelinkedkernel%20fix4%20beta1.command
 
+to remove any prelinkedkernel fix and use the stock BigSur ones use this:
+https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20generic%20BKE.command.zip?raw=true
