@@ -90,3 +90,6 @@ https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20generic%20BKE.comm
 
 From BigSur Beta 2 non-Metal GPU require a reduced transparency to boot correctly:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28652497
+
+To fix "sudo mount -uw /" on BigSur use this fix:
+https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20snapshot%20fix.command.zip?raw=true
