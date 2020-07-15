@@ -93,3 +93,6 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 
 To try fix "sudo mount -uw /" disabling sealed volume and snapshot booting on BigSur check here:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28666720
+
+I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac:
+https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
