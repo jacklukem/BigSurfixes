@@ -1,4 +1,4 @@
-/System/Volumes/#!/bin/sh
+#!/bin/sh
 #!/bin/bash
 # simple Bash Menu Script by jackluke
 
