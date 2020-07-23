@@ -9,7 +9,29 @@ but kextcache command and prelinkedkernel are still working:
 
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28610988
 
-to apply the prelinkedkernel fix after BigSur Install:
+Here are the most updated Big Sur fixes:
+
+To try fix "sudo mount -uw /" disabling sealed volume and snapshot booting on BigSur check here:
+https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28701959
+
+I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac:
+https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
+
+From Big Sur beta 3 the prelinkedkernel for some machines changed for Ivy Bridge use this:
+https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20IvyBridge%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
+
+any non-APFS Mac or legacy USB mac to fix telemetry, ethernet and Wifi:
+https://github.com/jacklukem/BigSurfixes/blob/master/prelinkedkernel%20fix4%20beta1.command
+
+to remove any prelinkedkernel fix and use the stock BigSur ones use this:
+https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20generic%20BKE.command.zip?raw=true
+
+From BigSur Beta 2 non-Metal GPU require a reduced transparency to boot correctly:
+https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28652497
+
+
+
+The following guide is for manual patching, to apply the prelinkedkernel fix after BigSur Install:
 
 diskutil apfs list
 
@@ -81,21 +103,3 @@ My prelinkedkernel fixes still work on Big Sur beta 2 for targeting group of mac
 
 any Ivy Bridge Mac to fix Wifi and AirDrop:
 https://github.com/jacklukem/BigSurfixes/blob/master/bigsur%20fixes%20command/BigSur%20IvyBridge%20prelinkedkernel%20Sound%20AirDrop%20fix%20beta1.command.zip
-
-any non-APFS Mac or legacy USB mac to fix telemetry, ethernet and Wifi:
-https://github.com/jacklukem/BigSurfixes/blob/master/prelinkedkernel%20fix4%20beta1.command
-
-to remove any prelinkedkernel fix and use the stock BigSur ones use this:
-https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20generic%20BKE.command.zip?raw=true
-
-From BigSur Beta 2 non-Metal GPU require a reduced transparency to boot correctly:
-https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28652497
-
-To try fix "sudo mount -uw /" disabling sealed volume and snapshot booting on BigSur check here:
-https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28701959
-
-I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac:
-https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
-
-From Big Sur beta 3 the prelinkedkernel for some machines changed for Ivy Bridge use this:
-https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20IvyBridge%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
