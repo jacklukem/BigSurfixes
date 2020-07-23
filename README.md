@@ -11,7 +11,7 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 
 Here are the most updated Big Sur fixes:
 
-I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac:
+I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac (also Sandy Bridge and Ivy Bridge):
 https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
 
 From Big Sur beta 3 the prelinkedkernel for any Ivy Bridge Mac to fix Wifi and dual GPUs :
