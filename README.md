@@ -96,3 +96,6 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 
 I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac:
 https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
+
+From Big Sur beta 3 the prelinkedkernel for some machines changed for Ivy Bridge use this:
+
