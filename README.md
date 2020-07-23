@@ -14,10 +14,10 @@ Here are the most updated Big Sur fixes:
 I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac:
 https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
 
-From Big Sur beta 3 the prelinkedkernel for some machines changed for Ivy Bridge use this:
+From Big Sur beta 3 the prelinkedkernel for any Ivy Bridge Mac to fix Wifi and dual GPUs :
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20IvyBridge%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
 
-any non-APFS Mac or legacy USB mac to fix telemetry, ethernet and Wifi:
+From Big Sur beta 3 Penryn Core2Duo non-APFS Mac or legacy USB mac to fix telemetry, ethernet and Wifi:
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20Penryn%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
 
 to remove any prelinkedkernel fix and use the stock BigSur ones use this:
