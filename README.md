@@ -18,7 +18,7 @@ From Big Sur beta 3 the prelinkedkernel for some machines changed for Ivy Bridge
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20IvyBridge%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
 
 any non-APFS Mac or legacy USB mac to fix telemetry, ethernet and Wifi:
-https://github.com/jacklukem/BigSurfixes/blob/master/prelinkedkernel%20fix4%20beta1.command
+https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20Penryn%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
 
 to remove any prelinkedkernel fix and use the stock BigSur ones use this:
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20generic%20BKE.command.zip?raw=true
@@ -102,3 +102,6 @@ My prelinkedkernel fixes still work on Big Sur beta 2 for targeting group of mac
 
 any Ivy Bridge Mac to fix Wifi and AirDrop:
 https://github.com/jacklukem/BigSurfixes/blob/master/bigsur%20fixes%20command/BigSur%20IvyBridge%20prelinkedkernel%20Sound%20AirDrop%20fix%20beta1.command.zip
+
+any non-APFS Mac or legacy USB mac to fix telemetry, ethernet and Wifi:
+https://github.com/jacklukem/BigSurfixes/blob/master/prelinkedkernel%20fix4%20beta1.command
