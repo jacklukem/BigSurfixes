@@ -11,9 +11,6 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 
 Here are the most updated Big Sur fixes:
 
-To try fix "sudo mount -uw /" disabling sealed volume and snapshot booting on BigSur check here:
-https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28701959
-
 I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac:
 https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
 
@@ -29,6 +26,8 @@ https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20generic%20BKE.comm
 From BigSur Beta 2 non-Metal GPU require a reduced transparency to boot correctly:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28652497
 
+To try fix "sudo mount -uw /" disabling sealed volume and snapshot booting on BigSur check here:
+https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28701959
 
 
 The following guide is for manual patching, to apply the prelinkedkernel fix after BigSur Install:
