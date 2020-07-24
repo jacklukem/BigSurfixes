@@ -27,7 +27,7 @@ https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20Penryn%20beta3%20p
 to remove any prelinkedkernel fix and use the stock BigSur ones use this:
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20generic%20BKE.command.zip?raw=true
 
-From BigSur Beta 2 non-Metal GPU require a reduced transparency to boot correctly:
+From BigSur Beta 2 non-Metal GPU require a preset reduced transparency to boot correctly:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28652497
 
 To try fix "sudo mount -uw /" disabling sealed volume and snapshot booting on BigSur check here:
