@@ -17,6 +17,10 @@ https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
 From Big Sur beta 3 the prelinkedkernel for any Ivy Bridge Mac to fix Wifi and dual GPUs :
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20IvyBridge%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
 
+New experimental prelinkedkernel fix for Big Sur beta 3 to include Nvidia GeForce Tesla framebuffer (credit to ASentientBot for Nvidia fixes)
+on any Penryn Core2Duo non-APFS Mac or legacy USB mac (also fix telemetry, ethernet and Wifi):
+https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20beta3%20Nvidia%20Tesla%20fix.command.zip?raw=true
+
 From Big Sur beta 3 any Penryn Core2Duo non-APFS Mac or legacy USB mac to fix telemetry, ethernet and Wifi:
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20Penryn%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
 
