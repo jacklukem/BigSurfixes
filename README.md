@@ -32,7 +32,7 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 
 The following guide is for manual patching, to apply the prelinkedkernel fix after BigSur Install:
 
-[code]diskutil apfs list[/code]
+#[code]diskutil apfs list[/code]
 
 [code]diskutil list | grep Preboot[/code]
 
