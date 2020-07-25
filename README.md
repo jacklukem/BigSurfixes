@@ -14,7 +14,7 @@ Here are the most updated Big Sur fixes (currently BigSur beta 3):
 I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac (also Sandy Bridge and Ivy Bridge):
 https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
 
-From Big Sur beta 3 the prelinkedkernel for any Ivy Bridge Mac to fix Wifi and dual GPUs :
+From Big Sur beta 3 the prelinkedkernel for any Ivy Bridge Mac to fix Wifi, AirDrop and dual GPUs :
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20IvyBridge%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
 
 New experimental prelinkedkernel fix for Big Sur beta 3 to include Nvidia GeForce Tesla framebuffer (credit to ASentientBot for Nvidia fixes)
@@ -101,11 +101,3 @@ chmod 755 csrutil2
 ./csrutil2 authenticated-root disable
 
 (Note: for any raw file downloaded to use them just remove the .dms extension that is set from github)
-
-My prelinkedkernel fixes still work on Big Sur beta 2 for targeting group of machines use these:
-
-any Ivy Bridge Mac to fix Wifi and AirDrop:
-https://github.com/jacklukem/BigSurfixes/blob/master/bigsur%20fixes%20command/BigSur%20IvyBridge%20prelinkedkernel%20Sound%20AirDrop%20fix%20beta1.command.zip
-
-any non-APFS Mac or legacy USB mac to fix telemetry, ethernet and Wifi:
-https://github.com/jacklukem/BigSurfixes/blob/master/prelinkedkernel%20fix4%20beta1.command
