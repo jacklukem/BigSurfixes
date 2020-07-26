@@ -52,7 +52,7 @@ replace the "prelinkedkernel fix" file in this path:
 
 replace it also here: /Volumes/Preboot/UUID-BigSur/Library/Preferences/SystemConfiguration/
 
-replace the "patched prelinkedkernel beta1" ("patched prelinkedkernel" folder will contain newer beta fixes) or "legacy usb prelinkedkernel beta1" (this one should work on any non-APFS Mac enabling also Wifi for AirPortBrcm4331 cards) in this path:
+replace the "patched prelinkedkernel" (contains newer beta fixes also for any non-APFS Mac enabling Wifi for AirPortBrcm4331 cards) in this path:
 
 /Volumes/Preboot/UUID-BigSur/System/Library/PrelinkedKernels/
 
