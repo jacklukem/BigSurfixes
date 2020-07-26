@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>applet.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.jackluke.CatalinaOTAswufix</string>
+	<string>com.apple.jackluke.BigSurOTAswufix</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
