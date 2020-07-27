@@ -9,7 +9,6 @@ echo "\n\nWelcome to the BigSur OTA Software update beta fix"
 echo "\nUse keyboard arrows or mouse and trackpad scrolling to read this report"
 echo "\nCopying the SoftwareUpdate VirtualMachineFaker dynamic library"
 echo "\nDone"
-sudo mount -uw /
 sudo cp -a ~/*/BigSurOTAswufix.app/Contents/Resources/Scripts/SUVMMFaker.dylib ~/
 sudo chown root:wheel ~/SUVMMFaker.dylib
 launchctl setenv DYLD_INSERT_LIBRARIES ~/SUVMMFaker.dylib
