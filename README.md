@@ -37,7 +37,7 @@ To try fix "sudo mount -uw /" disabling sealed volume and snapshot booting on Bi
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28701959
 
 For USB Big Sur Installer to try skip system sealing and snapshot booting check here:
-https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28713639
+https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28712634
 
 
 The following guide is for manual patching, to apply the prelinkedkernel fix after BigSur Install:
