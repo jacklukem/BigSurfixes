@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Kernel Cache</key>
-    	<string>System\Library\Prelinkedkernels\prelinkedkernel</string>
+    	<string>System\Library\PrelinkedKernels\prelinkedkernel</string>
 	
 	<key>Kernel Flags</key>
 	<string>root-dmg=file:///BaseSystem/BaseSystem.dmg -no_compat_check amfi_get_out_of_my_way=1</string>
