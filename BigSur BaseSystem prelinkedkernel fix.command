@@ -17,7 +17,6 @@ echo "\nSetting nvram parameter to enforce compatibility check"
 sudo nvram boot-args="-no_compat_check"
 echo "Done"
 echo "\nDetecting and adjusting BigSur APFS BaseSystem"
-diskutil mount Preboot
 if [ -e /Volumes/*/BaseSystem/ ]
 then
 cd /Volumes/*/BaseSystem/
