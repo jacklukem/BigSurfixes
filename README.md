@@ -39,6 +39,9 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 For USB Big Sur Installer to try skip system sealing and snapshot booting check here:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28712634
 
+To make an USB BigSur Installer for non-APFS or legacy USB Mac:
+https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28726070
+
 
 The following guide is for manual patching, to apply the prelinkedkernel fix after BigSur Install:
 
