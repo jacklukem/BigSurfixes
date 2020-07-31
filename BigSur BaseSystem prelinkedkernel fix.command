@@ -20,8 +20,6 @@ echo "\nDetecting and adjusting BigSur APFS BaseSystem"
 diskutil mount Preboot
 if [ -e /Volumes/*/BaseSystem/ ]
 then
-curl https://github.com/jacklukem/BigSurfixes/raw/master/installer%20fix/com.apple.Boot.plist --progress-bar -L -o /private/tmp/com.apple.Boot.plist
-curl https://github.com/jacklukem/BigSurfixes/blob/master/patched%20prelinkedkernel/prelinkedkernelb3penryn.zip?raw=true --progress-bar -L -o /private/tmp/prelinkedkernel.zip
 cd /Volumes/*/BaseSystem/
 hdiutil attach -owners on BaseSystem.dmg -shadow
 echo "\nAdjusting BigSur APFS BaseSystem can takes up to 10 minutes"
@@ -48,14 +46,20 @@ hdiutil convert -format ULFO -o BaseSystem2.dmg BaseSystem.dmg -shadow
 mv BaseSystem.dmg BaseSystembackup.dmg
 mv BaseSystem2.dmg BaseSystem.dmg
 rm BaseSystem.dmg.shadow
-echo "\nPatching BigSur USB Installer prelinkedkernel"
+echo "\nPatching BigSur USB Installer prelinkedkernel can take up to 10 minutes"
+curl https://github.com/jacklukem/BigSurfixes/raw/master/installer%20fix/com.apple.Boot.plist --progress-bar -L -o /private/tmp/com.apple.Boot.plist
+curl https://github.com/jacklukem/BigSurfixes/blob/master/patched%20prelinkedkernel/prelinkedkernelb3penryn.zip?raw=true --progress-bar -L -o /private/tmp/prelinkedkernel.zip
+curl https://github.com/jacklukem/BigSurfixes/blob/master/installer%20fix/boot.efi?raw=true --progress-bar -L -o /private/tmp/boot.efi
 cd ..
-cd System/Library/CoreServices/
-sudo mv PlatformSupport.plist PlatformSupport.plist2
+cd Library/Preferences/SystemConfiguration/
 sudo cp -a /private/tmp/com.apple.Boot.plist .
-cd ..
-cd PrelinkedKernels
+cd .. ; cd .. ; cd ..
+cd System/Library/PrelinkedKernels
 sudo unzip /private/tmp/prelinkedkernel.zip -d .
+cd ..
+cd CoreServices
+sudo mv PlatformSupport.plist PlatformSupport.plist2
+sudo cp -a /private/tmp/boot.efi .
 echo "Done"
 echo "\nAfter reboot your BigSur should use a patched BaseSystem with prelinkedkernel instead of BootKernelExtensions.kc\n and legacy USB and Wifi should work on USB BigSur Installer\n"
 else
