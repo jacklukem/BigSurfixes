@@ -38,8 +38,6 @@ done
 chmod -R 755 "/Volumes/macOS Base System/System/Library/Extensions"
 chown -R 0:0 "/Volumes/macOS Base System/System/Library/Extensions"
 diskutil unmount "macOS Base System"
-diskutil unmount Preboot
-diskutil unmount "Preboot 1"
 cd /Volumes/*/BaseSystem/
 hdiutil convert -format ULFO -o BaseSystem2.dmg BaseSystem.dmg -shadow
 mv BaseSystem.dmg BaseSystembackup.dmg
