@@ -17,7 +17,7 @@ echo "\nSetting nvram parameter to enforce compatibility check"
 sudo nvram boot-args="-no_compat_check"
 echo "Done"
 echo "\nDetecting and adjusting BigSur APFS BaseSystem"
-if [ -e /Volumes/*/BaseSystem/ ]
+if [ -e /Volumes/*/BaseSystem/BaseSystem.dmg.shadow ]
 then
 cd /Volumes/*/BaseSystem/
 hdiutil convert -format ULFO -o ~/Downloads/BaseSystem2.dmg BaseSystem.dmg -shadow
@@ -45,5 +45,5 @@ mv HaxFixUSB/* .
 echo "Done"
 echo "\nAfter reboot your BigSur should use a patched BaseSystem with prelinkedkernel instead of BootKernelExtensions.kc\n and legacy USB and Wifi should work on USB BigSur Installer\n"
 else
-echo "\nWarning: you don't have any USB BigSur Installer plugged\n\nNote to run directly from BigSur an ethernet of Wifi internet connection is required\n"
+echo "\nWarning: you should launch first BaseSystem fix or you don't have any USB BigSur Installer plugged\n\nNote to run directly from BigSur an ethernet or Wifi internet connection is required\n"
 fi
