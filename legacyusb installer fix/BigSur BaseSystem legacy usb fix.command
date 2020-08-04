@@ -17,7 +17,7 @@ echo "\nSetting nvram parameter to enforce compatibility check"
 sudo nvram boot-args="-no_compat_check"
 echo "Done"
 echo "\nDetecting and adjusting BigSur APFS BaseSystem"
-if [ -e /Volumes/*/BaseSystem/ ]
+if [ -e /Volumes/*/BaseSystem/BaseSystem.dmg ]
 then
 cd /Volumes/*/BaseSystem/
 hdiutil attach -owners on BaseSystem.dmg -shadow
