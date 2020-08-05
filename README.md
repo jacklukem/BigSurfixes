@@ -9,7 +9,7 @@ but kextcache command and prelinkedkernel are still working:
 
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28610988
 
-Here are the most updated Big Sur fixes (currently BigSur beta 3):
+Here are the most updated Big Sur fixes (currently BigSur beta 3 but they still work beta 4):
 
 I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac (also Sandy Bridge and Ivy Bridge):
 https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
