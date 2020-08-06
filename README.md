@@ -41,6 +41,8 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 
 To make an USB BigSur Installer for non-APFS or legacy USB Mac:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28726070
+this works also for beta 4:
+https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28737950
 
 
 The following guide is for manual patching, to apply the prelinkedkernel fix after BigSur Install:
