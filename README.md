@@ -14,38 +14,38 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 
 Here are the most updated Big Sur fixes (currently BigSur beta 3 that works also for beta 4):
 
-I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac (also Sandy Bridge and Ivy Bridge):
+- I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac (also Sandy Bridge and Ivy Bridge):
 https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
 https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/4.0
 
-To make an USB BigSur Installer for non-APFS or legacy USB Mac:
+- To make an USB BigSur Installer for non-APFS or legacy USB Mac:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28726070
 this works also for beta 4:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28737950
 
-From Big Sur beta 3 the prelinkedkernel for any Ivy Bridge Mac to fix Wifi, AirDrop and dual GPUs :
+- From Big Sur beta 3 the prelinkedkernel for any Ivy Bridge Mac to fix Wifi, AirDrop and dual GPUs :
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20IvyBridge%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
 
-New experimental prelinkedkernel fix for Big Sur beta 3 to include Nvidia GeForce Tesla framebuffer (credit to ASentientBot for Nvidia fixes)
+- New experimental prelinkedkernel fix for Big Sur beta 3 to include Nvidia GeForce Tesla framebuffer (credit to ASentientBot for Nvidia fixes)
 on any Penryn Core2Duo non-APFS Mac or legacy USB mac (also fix telemetry, ethernet and Wifi):
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20beta3%20Nvidia%20Tesla%20fix.command.zip?raw=true
 
-From Big Sur beta 3 any Penryn Core2Duo non-APFS Mac or legacy USB mac to fix telemetry, ethernet and Wifi:
+- From Big Sur beta 3 any Penryn Core2Duo non-APFS Mac or legacy USB mac to fix telemetry, ethernet and Wifi:
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20Penryn%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
 
-To try fix "sudo mount -uw /" disabling sealed volume and snapshot booting on BigSur check here:
+- To try fix "sudo mount -uw /" disabling sealed volume and snapshot booting on BigSur check here:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28701959
 
-To fix Night Shift on BigSur for unsupported mac:
+- To fix Night Shift on BigSur for unsupported mac:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28716098
 
-to remove any prelinkedkernel fix and use the stock BigSur ones use this:
+- to remove any prelinkedkernel fix and use the stock BigSur ones use this:
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20generic%20BKE.command.zip?raw=true
 
-From BigSur Beta 2 non-Metal GPU require a preset reduced transparency to boot correctly:
+- From BigSur Beta 2 non-Metal GPU require a preset reduced transparency to boot correctly:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28652497
 
-For USB Big Sur Installer to try skip system sealing and snapshot booting check here:
+- For USB Big Sur Installer to try skip system sealing and snapshot booting check here:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28707887
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28712634
 
