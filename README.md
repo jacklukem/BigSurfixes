@@ -1,5 +1,5 @@
 # BigSurfixes
-## *Big Sur fixes for unsupported Mac
+## *Big Sur fixes for unsupported Mac*
 
 to support Big Sur booting on non-APFS mac or APFS firmware mac
 
@@ -9,12 +9,13 @@ but kextcache command and prelinkedkernel are still working:
 
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28610988
 
-## *Currently these fixes still work for Big Sur beta 4
+## *Currently these fixes still work for Big Sur beta 4*
 
 Here are the most updated Big Sur fixes (currently BigSur beta 3 that works also for beta 4):
 
 I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac (also Sandy Bridge and Ivy Bridge):
 https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
+https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/4.0
 
 From Big Sur beta 3 the prelinkedkernel for any Ivy Bridge Mac to fix Wifi, AirDrop and dual GPUs :
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20IvyBridge%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
