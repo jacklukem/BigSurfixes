@@ -57,7 +57,7 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 
 (if have multiple separated APFS containers, just mount the largest MB Preboot Volume)
 
-diskutil mount Preboot
+> diskutil mount Preboot
 
 Locate your BigSur Data Volume UUID
 
@@ -99,20 +99,20 @@ BigSur introduced also a new SIP for sealing the System Volume, to disable from 
 
 While instead to disable "csrutil authenticated-root" from a non-APFS or legacy USB mac, copy the "csrutil2" (or use the zip file) binary file to any USB MacOS Installer (minimum El Capitan when apple introduced SIP but should use an USB Catalina Installer because it has more recent SDK) in its root folder / , then boot from the macOS USB Installer, open a recovery terminal and type:
 
-cd / ; mount -uw / ; chmod 755 csrutil2
+> cd / ; mount -uw / ; chmod 755 csrutil2
 
-./csrutil2 authenticated-root disable
+> ./csrutil2 authenticated-root disable
 
 Otherwise if you use a Catalina Recovery, copy the file on an external USB drive, then from Catalina recovery terminal:
 
-cd /Volumes/ ; ls
+> cd /Volumes/ ; ls
 
-cd YourUSBLabel
+> cd YourUSBLabel
 
-mount -uw /
+> mount -uw /
 
-chmod 755 csrutil2
+> chmod 755 csrutil2
 
-./csrutil2 authenticated-root disable
+> ./csrutil2 authenticated-root disable
 
 (Note: for any raw file downloaded to use them just remove the .dms extension that is set from github)
