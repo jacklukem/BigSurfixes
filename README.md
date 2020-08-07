@@ -62,6 +62,8 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 
 > diskutil mount Preboot
 
+> diskutil info / | grep UUID
+
 Locate your BigSur Data Volume UUID
 
 replace the `"prelinkedkernel fix"` file in this path:
