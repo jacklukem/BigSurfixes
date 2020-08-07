@@ -4,9 +4,9 @@
 
 to support Big Sur booting on non-APFS mac or APFS firmware mac
 
-BigSur added the `BootKernelExtensions.kc` as the new kernelcache with new command kmutil
+BigSur added the `BootKernelExtensions.kc` as the new kernelcache with new command `kmutil`
 
-but kextcache command and `prelinkedkernel` are still working:
+but `kextcache` command and `prelinkedkernel` are still working:
 
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28610988
 
@@ -33,6 +33,9 @@ https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20beta3%20Nvidia%20T
 From Big Sur beta 3 any Penryn Core2Duo non-APFS Mac or legacy USB mac to fix telemetry, ethernet and Wifi:
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20Penryn%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
 
+To try fix "sudo mount -uw /" disabling sealed volume and snapshot booting on BigSur check here:
+https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28701959
+
 To fix Night Shift on BigSur for unsupported mac:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28716098
 
@@ -41,9 +44,6 @@ https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20generic%20BKE.comm
 
 From BigSur Beta 2 non-Metal GPU require a preset reduced transparency to boot correctly:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28652497
-
-To try fix "sudo mount -uw /" disabling sealed volume and snapshot booting on BigSur check here:
-https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28701959
 
 For USB Big Sur Installer to try skip system sealing and snapshot booting check here:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28707887
