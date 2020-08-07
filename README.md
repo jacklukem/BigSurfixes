@@ -18,6 +18,11 @@ I made also a customized USBopencore setup to boot BigSur from any Penryn Core2D
 https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.1
 https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/4.0
 
+To make an USB BigSur Installer for non-APFS or legacy USB Mac:
+https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28726070
+this works also for beta 4:
+https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28737950
+
 From Big Sur beta 3 the prelinkedkernel for any Ivy Bridge Mac to fix Wifi, AirDrop and dual GPUs :
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20IvyBridge%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
 
@@ -44,11 +49,6 @@ For USB Big Sur Installer to try skip system sealing and snapshot booting check 
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28707887
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28712634
 
-To make an USB BigSur Installer for non-APFS or legacy USB Mac:
-https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28726070
-this works also for beta 4:
-https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28737950
-
 
 *The following guide is for manual patching, to apply the prelinkedkernel fix after BigSur Install:*
 
@@ -74,7 +74,7 @@ replace the `"patched prelinkedkernel"` (contains newer beta fixes also for any 
 
 For the `"installer fix"` make a BigSur USB Installer with `createinstallmedia`:
 
-`sudo /Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/BigSurInstaller/`
+> sudo /Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/BigSurInstaller/
 
 and replace the `"installer fix"` file in this path:
 
