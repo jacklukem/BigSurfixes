@@ -62,41 +62,41 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 
 Locate your BigSur Data Volume UUID
 
-replace the "prelinkedkernel fix" file in this path:
+replace the `"prelinkedkernel fix"` file in this path:
 
-/Volumes/Preboot/UUID-BigSur/System/Library/CoreServices/
+`/Volumes/Preboot/UUID-BigSur/System/Library/CoreServices/`
 
-replace it also here: /Volumes/Preboot/UUID-BigSur/Library/Preferences/SystemConfiguration/
+replace it also here: `/Volumes/Preboot/UUID-BigSur/Library/Preferences/SystemConfiguration/`
 
-replace the "patched prelinkedkernel" (contains newer beta fixes also for any non-APFS Mac enabling Wifi for AirPortBrcm4331 cards) in this path:
+replace the `"patched prelinkedkernel"` (contains newer beta fixes also for any non-APFS Mac enabling Wifi for AirPortBrcm4331 cards) in this path:
 
-/Volumes/Preboot/UUID-BigSur/System/Library/PrelinkedKernels/
+`/Volumes/Preboot/UUID-BigSur/System/Library/PrelinkedKernels/`
 
-For the "installer fix" make a BigSur USB Installer with createinstallmedia:
+For the `"installer fix"` make a BigSur USB Installer with `createinstallmedia`:
 
-sudo /Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/BigSurInstaller/
+`sudo /Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resources/createinstallmedia --volume /Volumes/BigSurInstaller/`
 
-and replace the "installer fix" file in this path:
+and replace the `"installer fix"` file in this path:
 
-/Volumes/USBInstallerBigSur/Library/Preferences/SystemConfiguration/
+`/Volumes/USBInstallerBigSur/Library/Preferences/SystemConfiguration/`
 
-I also included some "legacyusb fix for installer"
+I also included some `"legacyusb fix for installer"`
 
 for rebuild BigSur kernelcache from single user mode copy both the .sh files on your root / BigSur disk and home folder that is the / BigSur Label - Data / Users / yourusername /
 
-then from single user mode type : chmod 755 kcsingleuser.sh ; ./kcsingleuser.sh
+then from single user mode type : `chmod 755 kcsingleuser.sh ; ./kcsingleuser.sh`
 
-(credit to ASentientBot for Hax.dylib fix for "Install macOS Beta.app" and "apfs_boot_util" to mount the BigSur Data Volume from single user mode, after using "apfs_boot_util" from single user mode apart the Data Volume also the Preboot Volume is available in this path /System/Volumes/)
+(credit to ASentientBot for `Hax.dylib` fix for "Install macOS Beta.app" and "apfs_boot_util" to mount the BigSur Data Volume from single user mode, after using `"apfs_boot_util"` from single user mode apart the Data Volume also the Preboot Volume is available in this path `/System/Volumes/`)
 
-Note: if you use my "prelinkedkernel fix command" directly from BigSur the Preboot Volume mount point is this:
+Note: if you use my `"prelinkedkernel fix command"` directly from BigSur the Preboot Volume mount point is this:
 
-/System/Volumes/Preboot/
+`/System/Volumes/Preboot/`
 
-(can notice this directly from BigSur with "ls /System/Volumes/" )
+(can notice this directly from BigSur with `"ls /System/Volumes/"` )
 
 So I uploaded those modified scripts to run also directly from BigSur normal booting.
 
-BigSur introduced also a new SIP for sealing the System Volume, to disable from any APFS firmware Mac simply boot the USB BigSur Installer (or BigSur Recovery), open terminal and type: "csrutil authenticated-root disable"
+BigSur introduced also a new SIP for sealing the System Volume, to disable from any APFS firmware Mac simply boot the USB BigSur Installer (or BigSur Recovery), open terminal and type: `"csrutil authenticated-root disable"`
 
 While instead to disable "csrutil authenticated-root" from a non-APFS or legacy USB mac, copy the "csrutil2" (or use the zip file) binary file to any USB MacOS Installer (minimum El Capitan when apple introduced SIP but should use an USB Catalina Installer because it has more recent SDK) in its root folder / , then boot from the macOS USB Installer, open a recovery terminal and type:
 
