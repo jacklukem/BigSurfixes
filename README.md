@@ -1,11 +1,12 @@
 # BigSurfixes
+
 ## *Big Sur fixes for unsupported Mac*
 
 to support Big Sur booting on non-APFS mac or APFS firmware mac
 
-BigSur added the BootKernelExtensions.kc as the new kernelcache with new command kmutil
+BigSur added the `BootKernelExtensions.kc` as the new kernelcache with new command kmutil
 
-but kextcache command and prelinkedkernel are still working:
+but kextcache command and `prelinkedkernel` are still working:
 
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28610988
 
