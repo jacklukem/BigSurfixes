@@ -1,5 +1,5 @@
 # BigSurfixes
-Big Sur fixes for unsupported Mac
+**Big Sur fixes for unsupported Mac**
 
 to support Big Sur booting on non-APFS mac or APFS firmware mac
 
