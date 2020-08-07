@@ -50,6 +50,8 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28712634
 
 
+
+
 *The following guide is for manual patching, to apply the prelinkedkernel fix after BigSur Install:*
 
 > diskutil apfs list
