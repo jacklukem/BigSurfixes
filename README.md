@@ -49,11 +49,11 @@ this works also for beta 4:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28737950
 
 
-The following guide is for manual patching, to apply the prelinkedkernel fix after BigSur Install:
+*The following guide is for manual patching, to apply the prelinkedkernel fix after BigSur Install:*
 
-diskutil apfs list
+> diskutil apfs list
 
-diskutil list | grep Preboot
+> diskutil list | grep Preboot
 
 (if have multiple separated APFS containers, just mount the largest MB Preboot Volume)
 
