@@ -20,8 +20,7 @@ https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/4.0
 
 - To make an USB BigSur Installer for non-APFS or legacy USB Mac:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28737950
-
-(previous version: https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28726070=
+(previous version: https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28726070)
 
 - From Big Sur beta 3 the prelinkedkernel for any Ivy Bridge Mac to fix Wifi, AirDrop and dual GPUs IntelHD4000 and Nvidia Kepler :
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSur%20IvyBridge%20beta3%20prelinkedkernel%20fix.command.zip?raw=true
