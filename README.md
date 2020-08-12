@@ -20,6 +20,7 @@ https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/4.0
 
 ## *Added two new versions for spoofing BigSur supported Mac in order to get OTA updates:*
 For non-APFS or legacy USB Mac: https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/3.2
+
 For APFS firmware with recent USB Mac: https://github.com/jacklukem/USBOpenCoreAPFSloader/releases/tag/4.2
 
 - To make an USB BigSur Installer for non-APFS or legacy USB Mac (added also an ASentientBot Hax3 to fix domain error and an Icon for apple startup manager):
