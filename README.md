@@ -12,7 +12,7 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 
 ## *Currently these fixes still work for Big Sur beta 4*
 
- *prelinkedkernel fixes don't work on beta 5*
+## *prelinkedkernel fixes don't work on beta 5*
 
 Here are the most updated Big Sur fixes (for BigSur beta 3 that works also for beta 4):
 
