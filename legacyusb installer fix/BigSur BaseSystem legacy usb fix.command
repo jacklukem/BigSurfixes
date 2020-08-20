@@ -23,6 +23,7 @@ cd /Volumes/*/BaseSystem/
 hdiutil attach -owners on BaseSystem.dmg -shadow
 echo "\nAdjusting BigSur APFS BaseSystem can take up to 10 minutes"
 sudo rm "/Volumes/macOS Base System/System/Library/KernelCollections/"*.kc
+sudo rm "/Volumes/macOS Base System/System/Library/PrelinkedKernels/"immutablekernel
 sudo rm -r "/Volumes/macOS Base System/System/Library/Extensions/"
 sudo mkdir "/Volumes/macOS Base System/System/Library/Extensions/"
 curl https://github.com/jacklukem/BigSurfixes/blob/master/legacyusb%20installer%20fix/basesystemfix/basesystem3kext.zip?raw=true --progress-bar -L -o /private/tmp/basesystem3kext.zip
