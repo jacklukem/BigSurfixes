@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kernel Cache</key>
+	<string>/boot/BootKernelExtensions.kc</string>
+	<key>Kernel Flags</key>
+	<string>-restore -logOnCrash -rootdmg-ramdisk auth-root-dmg=file:///boot/x86_64SURamDisk.dmg</string>
+	<key>Root UUID</key>
+	<string>BigSurDataUUID</string>
+</dict>
+</plist>
