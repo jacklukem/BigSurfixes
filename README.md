@@ -11,7 +11,7 @@ but `kextcache` command and `prelinkedkernel` are still working:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28610988
 
 ## *Currently these fixes still work for Big Sur beta 4 Build 20A5343i*
-also works for public beta 1 Build 20A5343j:
+also works for public beta 1 Build 20A5343j: http://swcdn.apple.com/content/downloads/29/11/001-35028-A_7VBLVEPJM9/fmewkm9mb99ja9cbqfp4scme3bzlaurv8v/InstallAssistant.pkg
 
 check here for versions info: https://en.wikipedia.org/wiki/MacOS_Big_Sur#Release_history
 
