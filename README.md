@@ -11,11 +11,11 @@ but `kextcache` command and `prelinkedkernel` are still working:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28610988
 
 ## *Currently these fixes still work for Big Sur beta 4 Build 20A5343i*
-also works for public beta 1 Build 20A5343j
+also works for public beta 1 Build 20A5343j:
+
 check here for versions info: https://en.wikipedia.org/wiki/MacOS_Big_Sur#Release_history
 
 ## *prelinkedkernel fixes don't work on beta 6 Build 20A5364e (BaseSystem legacy usb fix still works on beta 6)*
-(possibly working replacing the 230 beta3 basesystem kext)
 
 Here are the most updated Big Sur fixes (for BigSur beta 3 that works also for beta 4 Build 20A5343i):
 
