@@ -10,9 +10,9 @@ but `kextcache` command and `prelinkedkernel` are still working:
 
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28610988
 
-## *Currently these fixes still work for Big Sur beta 4*
+## *Currently these fixes still work for Big Sur beta 4 or public beta 1*
 
-## *prelinkedkernel fixes don't work on beta 5 (BaseSystem legacy usb fix still works)*
+## *prelinkedkernel fixes don't work on beta 6 (BaseSystem legacy usb fix still works on beta 6)*
 
 Here are the most updated Big Sur fixes (for BigSur beta 3 that works also for beta 4):
 
