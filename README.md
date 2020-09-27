@@ -17,6 +17,9 @@ check here for versions info: https://en.wikipedia.org/wiki/MacOS_Big_Sur#Releas
 
 ## *prelinkedkernel fixes don't work from beta 6 Build `20A5364e` (BaseSystem legacy usb fix still works on beta 8)*
 
+## From beta 7 to make working Penryn Core2Duo is required a beta 6 kernel downgrade (credit to ASentientBot)*
+https://github.com/jacklukem/BigSurfixes/tree/master/penryn%20c2d%20bigsur%20beta6
+
 Here are the most updated Big Sur fixes (for BigSur beta 3 that works also for beta 4 Build 20A5343i):
 
 - I made also a customized USBopencore setup to boot BigSur from any Penryn Core2Duo non-APFS or APFS mac (also Sandy Bridge and Ivy Bridge):
