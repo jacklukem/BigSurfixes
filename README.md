@@ -18,6 +18,7 @@ also works for public beta 1 Build `20A5343j`: http://swcdn.apple.com/content/do
 check here for versions info: https://en.wikipedia.org/wiki/MacOS_Big_Sur#Release_history
 
 ## *prelinkedkernel fixes don't work from beta 6 Build `20A5364e` (BaseSystem legacy usb fix still works on beta 8)*
+you should use from this version my USBOpencore setup and BootKernelExtensions.kc (that works only for HighSierra supported Mac)
 
 ## *From beta 7 Build `20A5374g` to make working Penryn Core2Duo is required a beta 6 kernel downgrade (credit to ASentientBot)*
 I uploaded some patched BKE to allow boot with CMD+S that should be copied on: /Volumes/Preboot/UUIDBigSur/boot/System/Library/KernelCollections/
