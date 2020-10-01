@@ -23,7 +23,7 @@ you should use from this version my USBOpencore setup in repository and BootKern
 ## *BaseSystem legacy USB fix updated for beta 9 mainly for non-APFS or legacy USB Penryn Core2Duo*
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28973673
 
-## *From beta 9 Build Penryn Core2Duo can boot BigSur kernel*
+## *There was an issue from beta 7, but from beta 9 Build Penryn Core2Duo can boot BigSur kernel*
 I uploaded some patched BKE to allow boot with CMD+S that should be copied on: /Volumes/Preboot/UUIDBigSur/boot/System/Library/KernelCollections/
 https://github.com/jacklukem/BigSurfixes/tree/master/penryn%20c2d%20bigsur%20beta6
 
