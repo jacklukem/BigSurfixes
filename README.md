@@ -20,7 +20,7 @@ check here for versions info: https://en.wikipedia.org/wiki/MacOS_Big_Sur#Releas
 ## *prelinkedkernel fixes don't work from beta 6 Build `20A5364e` (BaseSystem legacy usb fix still works on beta 8)*
 you should use from this version my USBOpencore setup in repository and BootKernelExtensions.kc
 
-## *BaseSystem legacy USB fix beta 9 for non-APFS or legacy USB Penryn Core2Duo*
+## *BaseSystem legacy USB fix beta 9 for non-APFS or legacy USB Penryn Core2Duo it enables Wifi and Sound on recovery environment*
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28973673
 
 ## *From beta 9 Build Penryn Core2Duo can boot BigSur kernel*
