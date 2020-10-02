@@ -33,7 +33,9 @@ cd ..
 cd Library/Preferences/SystemConfiguration/
 sudo cp -a /private/tmp/com.apple.Boot.plist .
 cd .. ; cd .. ; cd ..
-cd System/Library/PrelinkedKernels
+cd System/Library
+mkdir PrelinkedKernels
+cd PrelinkedKernels
 sudo unzip /private/tmp/prelinkedkernel.zip -d .
 cd ..
 cd CoreServices
