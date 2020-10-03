@@ -17,7 +17,7 @@ also works for public beta 1 Build `20A5343j`: http://swcdn.apple.com/content/do
 
 check here for versions info: https://en.wikipedia.org/wiki/MacOS_Big_Sur#Release_history
 
-## *prelinkedkernel fixes don't work from beta 6 Build `20A5364e` (BaseSystem legacy usb fix still works on beta 8)*
+## *prelinkedkernel fixes don't work from beta 6 Build `20A5364e` (BaseSystem legacy usb fix still works on beta 9)*
 you should use from this version my USBOpencore setup in repository and BootKernelExtensions.kc
 
 ## *BaseSystem legacy USB fix updated for beta 9 mainly for non-APFS or legacy USB Penryn Core2Duo for a stock createinstallmedia or through opencore*
