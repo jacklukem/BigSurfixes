@@ -1,6 +1,6 @@
 # BigSurfixes
 
-## *Making a patched BigSur Installer through BaseSystem legacy USB fix updated for beta 9 mainly for non-APFS or legacy USB Penryn Core2Duo for a stock createinstallmedia or through opencore*
+## *Making a patched BigSur Installer through BaseSystem legacy USB fix updated for beta 9 mainly for non-APFS or legacy USB Penryn Core2Duo through a stock createinstallmedia or opencore*
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28973673
 
 After USBopencore kext patching to boot without opencore and assign BigSur labels use this method:
