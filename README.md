@@ -6,6 +6,9 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 After USBopencore kext patching to boot without opencore and assign BigSur labels use this method:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28957937
 
+to download a BigSur full installer from Mojave or Catalina try this:
+https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28740283
+
 ## *Big Sur fixes for unsupported Mac*
 
 to support Big Sur booting on non-APFS mac or APFS firmware mac
