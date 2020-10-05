@@ -69,7 +69,7 @@
 		</dict>
 		<dict>
 			<key>ARM-Only</key>
-			<true/>
+			<false/>
 			<key>BundlePath</key>
 			<string>/System/Installation/CDIS/Share Disk.app</string>
 			<key>Path</key>
