@@ -10,6 +10,9 @@ to download a BigSur full installer from Mojave or Catalina try this:
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28740283
 or this: https://apps.apple.com/app/macos-11-0-beta/id1497794093?mt=12
 
+tips to make a patched BigSur Utitilies menu:
+https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28987885
+
 ## *Big Sur fixes for unsupported Mac*
 
 to support Big Sur booting on non-APFS mac or APFS firmware mac
