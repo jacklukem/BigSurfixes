@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Kernel Cache</key>
-    	<string>boot\System\Library\KernelCollections\BootKernelExtensions.kc</string>
+    	<string>System\Library\KernelCollections\BootKernelExtensions.kc</string>
 	
 	<key>Kernel Flags</key>
 	<string>root-dmg=file:///BaseSystem/BaseSystem.dmg -no_compat_check amfi_get_out_of_my_way=1</string>
