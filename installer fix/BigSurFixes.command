@@ -37,7 +37,7 @@ echo "\n"
 read -p "Type your BigSur Volume label -> " label  
 echo "\n\nFixing telemetry plugin for BigSur APFS System"
 mount -uw /Volumes/"$label"
-cd /Volumes/$label/System/Library/KernelCollections/
+cd /Volumes/"$label"/System/Library/KernelCollections/
 cd .. 
 cd UserEventPlugins
 mv com.apple.telemetry.plugin com.apple.telemetry.plugin2
