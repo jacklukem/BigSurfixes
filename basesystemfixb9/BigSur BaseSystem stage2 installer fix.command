@@ -27,6 +27,7 @@ cd System/Library/KernelCollections/
 cd ..
 cd PrelinkedKernels
 sudo cp prelinkedkernel /Volumes/*/"macOS Install Data"/"Locked Files"/
+cd /Volumes/*/"macOS Install Data"/"Locked Files"/
 sudo mv prelinkedkernel BootKernelExtensions.kc
 echo "\nDone\n"
 echo "\nAfter reboot your BigSur stage2 macOS Installer should use a patched BaseSystem with BootKernelExtensions.kc as prelinkedkernel\n"
