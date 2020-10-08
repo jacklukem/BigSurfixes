@@ -22,6 +22,7 @@ then
 sudo chflags -R nouchg /Volumes/*/"macOS Install Data"/"Locked Files"/
 cd /Volumes/*/BaseSystem/
 sudo cp BaseSystem.dmg /Volumes/*/"macOS Install Data"/
+cd ..
 cd System/Library/KernelCollections/
 cd ..
 cd PrelinkedKernels
