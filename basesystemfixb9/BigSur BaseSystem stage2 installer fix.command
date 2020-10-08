@@ -5,19 +5,19 @@
 
 printf '\e[96m;%s\a' "$color"
 
-printf "$'\e[40m'BigSur beta 9 stage2 BaseSystem.dmg prelinkedkernel fix by jackluke"
+printf "$'\e[40m'BigSur beta 9 stage2 installer BaseSystem.dmg prelinkedkernel fix by jackluke"
 
 printf "\n\n\n"
 
 clear && printf '\e[3J'
-echo "Welcome to the BigSur beta 9 stage2 BaseSystem.dmg prelinkedkernel this version does not include Sound, Wifi and legacy usb fixes"
-echo "\nBigSur stage2 BaseSystem prelinkedkernel fix can't be executed as standard user if you want to suspend the script just press CTRL+Z"
+echo "Welcome to the BigSur beta 9 stage2 installer BaseSystem.dmg prelinkedkernel this version does include legacy usb fixes"
+echo "\nBigSur stage2 installer BaseSystem prelinkedkernel fix can't be executed as standard user if you want to suspend the script just press CTRL+Z"
 echo "\nto apply this fix your current account password is required\notherwise the script can't process\n"
 echo "\nSetting nvram parameter to enforce compatibility check"
 sudo nvram boot-args="-no_compat_check"
 echo "Done"
-echo "\nDetecting and adjusting BigSur APFS Data macOS Installer"
-if [ -e /Volumes/*/"macOS Install Data"/"Locked Files" ] && [ -e /Volumes/*/BaseSystem/BaseSystembackup.dmg ]
+echo "\nDetecting and adjusting BigSur APFS Data macOS Installer stage2"
+if [ -e /Volumes/*/"macOS Install Data"/UpdateBundle/AssetData ] && [ -e /Volumes/*/BaseSystem/BaseSystembackup.dmg ]
 then
 sudo chflags -R nouchg /Volumes/*/"macOS Install Data"/"Locked Files"/
 cd /Volumes/*/BaseSystem/
