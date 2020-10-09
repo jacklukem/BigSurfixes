@@ -3,7 +3,7 @@
 ## *Making a patched BigSur Installer through BaseSystem legacy USB fix updated for beta 9 mainly for non-APFS or legacy USB Penryn Core2Duo through a stock createinstallmedia or opencore*
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28973673
 
-The stage2 installer will continue on internal SATA disk, but on non-APFS or legacy USB when targeting an external USB this should be applied from Mojave or Catalina: https://github.com/jacklukem/BigSurfixes/raw/master/BigSur%20BaseSystem%20stage2%20installer%20fix.zip
+The stage2 installer will continue when target is an internal SATA disk, but on non-APFS or legacy USB when targeting an external USB this should be applied from Mojave or Catalina: https://github.com/jacklukem/BigSurfixes/raw/master/BigSur%20BaseSystem%20stage2%20installer%20fix.zip
 
 you could skip stage3 installer (that is seal and system snapshot) but for non-APFS or legacy USB you need this to boot with CMD+S:
 https://github.com/jacklukem/BigSurfixes/blob/master/penryn%20c2d%20bigsur%20beta6/BKE%20kc%20b9%20patched.zip
