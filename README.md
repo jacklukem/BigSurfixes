@@ -5,6 +5,9 @@ https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread
 
 The stage2 installer will continue when target is an internal SATA disk, but on non-APFS or legacy USB when targeting an external USB this should be applied from Mojave or Catalina: https://github.com/jacklukem/BigSurfixes/raw/master/BigSur%20BaseSystem%20stage2%20installer%20fix.zip
 
+To fix USBopencore "exiting efiboot", boot from BigSurInstaller (BaseSystem fix) or from Recovery with CMD+S and exit, then try this:
+https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28948321
+
 you could skip stage3 installer (that is seal and system snapshot) but for non-APFS or legacy USB you need this to boot with CMD+S and exit:
 https://github.com/jacklukem/BigSurfixes/blob/master/penryn%20c2d%20bigsur%20beta6/BKE%20kc%20b9%20patched.zip
 
