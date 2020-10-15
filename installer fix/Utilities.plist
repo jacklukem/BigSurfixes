@@ -139,20 +139,9 @@
 			<key>ARM-Only</key>
 			<false/>
 			<key>BundlePath</key>
-			<string>/Applications/BigSurFixes.app</string>
-			<key>Path</key>
-			<string>/Applications/BigSurFixes.app/Contents/MacOS/BigSurFixes</string>
-			<key>TitleKey</key>
-			<string>BigSurFixes</string>
-		</dict>
-
-		<dict>
-			<key>ARM-Only</key>
-			<false/>
-			<key>BundlePath</key>
 			<string>/Applications/BirSurstage2fix.app</string>
 			<key>Path</key>
-			<string>/Applications/BirSurstage2fix.app/Contents/MacOS/Birsurstage2fix</string>
+			<string>/Applications/BirSurstage2fix.app/Contents/MacOS/BirSurstage2fix</string>
 			<key>TitleKey</key>
 			<string>BigSur stage2 fix</string>
 		</dict>
