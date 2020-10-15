@@ -1,6 +1,6 @@
 # BigSurfixes
 
-## *Making a patched BigSur Installer through BaseSystem legacy USB fix updated for beta 9 mainly for non-APFS or legacy USB Penryn Core2Duo through a stock createinstallmedia or opencore*
+## *Making a patched BigSur Installer through BaseSystem legacy USB fix updated for beta 9 and beta 10 mainly for non-APFS or legacy USB Penryn Core2Duo through a stock createinstallmedia or opencore*
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28973673
 
 The stage2 installer will continue when target is an internal SATA disk, but on non-APFS or legacy USB when targeting an external USB this should be applied from Mojave or Catalina: https://github.com/jacklukem/BigSurfixes/raw/master/BigSur%20BaseSystem%20stage2%20installer%20fix.zip
@@ -38,7 +38,7 @@ also works for public beta 1 Build `20A5343j`: http://swcdn.apple.com/content/do
 
 check here for versions info: https://en.wikipedia.org/wiki/MacOS_Big_Sur#Release_history
 
-## *prelinkedkernel fixes don't work from beta 6 Build `20A5364e` (BaseSystem legacy usb fix still works on beta 9)*
+## *prelinkedkernel fixes don't work from beta 6 Build `20A5364e` (BaseSystem legacy usb fix still works on beta 10)*
 you should use from this version my USBOpencore setup in repository and BootKernelExtensions.kc
 
 ## *There was an issue from beta 7, but from beta 9 Build `20A5384c` Penryn Core2Duo can boot BigSur kernel*
