@@ -46,6 +46,40 @@
 			<key>TitleKey</key>
 			<string>Disk Utility</string>
 		</dict>
+
+		<dict>
+			<key>BundlePath</key>
+			<string>/Applications/Hax3.app</string>
+			<key>DescriptionKey</key>
+			<string>Installer fix through ASentientBot HaxLib dylib</string>
+			<key>Path</key>
+			<string>/Applications/Hax3.app/Contents/MacOS/Hax3</string>
+			<key>TitleKey</key>
+			<string>Hax3 fix</string>
+		</dict>
+
+		<dict>
+			<key>BundlePath</key>
+			<string>/Applications/BigSurFixes.app</string>
+			<key>DescriptionKey</key>
+			<string>BigSurFixes by jacklukem GitHub</string>
+			<key>Path</key>
+			<string>/Applications/BigSurFixes.app/Contents/MacOS/BigSurFixes</string>
+			<key>TitleKey</key>
+			<string>BigSurFixes</string>
+		</dict>
+
+		<dict>
+			<key>BundlePath</key>
+			<string>/Applications/OpenCoreAPFSloader4.app</string>
+			<key>DescriptionKey</key>
+			<string>Install OpenCore on internal disk (customized by jackluke MacRumors)</string>
+			<key>Path</key>
+			<string>/Applications/OpenCoreAPFSloader4.app/Contents/MacOS/OpenCoreAPFSloader4</string>
+			<key>TitleKey</key>
+			<string>Install OpenCore</string>
+		</dict>
+
 	</array>
 	<key>Menu</key>
 	<array>
@@ -77,6 +111,53 @@
 			<key>TitleKey</key>
 			<string>Share Disk…</string>
 		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/Hax3.app</string>
+			<key>Path</key>
+			<string>/Applications/Hax3.app/Contents/MacOS/Hax3</string>
+			<key>TitleKey</key>
+			<string>Hax3 Installer fix</string>
+		</dict>
+
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/BigSurFixes.app</string>
+			<key>Path</key>
+			<string>/Applications/BigSurFixes.app/Contents/MacOS/BigSurFixes</string>
+			<key>TitleKey</key>
+			<string>BigSurFixes</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/BigSurFixes.app</string>
+			<key>Path</key>
+			<string>/Applications/BigSurFixes.app/Contents/MacOS/BigSurFixes</string>
+			<key>TitleKey</key>
+			<string>BigSurFixes</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/BirSurstage2fix.app</string>
+			<key>Path</key>
+			<string>/Applications/BirSurstage2fix.app/Contents/MacOS/Birsurstage2fix</string>
+			<key>TitleKey</key>
+			<string>BigSur stage2 fix</string>
+		</dict>
+
+
 	</array>
 </dict>
 </plist>
