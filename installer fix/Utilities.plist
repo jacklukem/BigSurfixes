@@ -157,6 +157,17 @@
 			<string>BigSur stage2 fix</string>
 		</dict>
 
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/OpenCoreAPFSloader4.app</string>
+			<key>Path</key>
+			<string>/Applications/OpenCoreAPFSloader4.app/Contents/MacOS/OpenCoreAPFSloader4</string>
+			<key>TitleKey</key>
+			<string>Install OpenCore</string>
+		</dict>
+
 
 	</array>
 </dict>
