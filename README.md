@@ -1,6 +1,6 @@
 # BigSurfixes
 
-## *Making a patched BigSur Installer through BaseSystem legacy USB fix updated for 11.0.1 release candidate (mainly for non-APFS or legacy USB Penryn Core2Duo and Arrandale MacBookPro) through a stock createinstallmedia or opencore this new version contains also many useful patching apps*
+## *BigSur BaseSystem legacy USB fix updated for 11.0.1 release candidate (mainly for non-APFS or legacy USB Penryn Core2Duo and Arrandale MacBookPro) through a stock createinstallmedia or opencore this new version contains also many useful patching apps*
 https://github.com/jacklukem/BigSurfixes/releases/tag/1.0
 
 ## *Making a patched BigSur Installer through BaseSystem legacy USB fix updated for beta 9 and beta 10 mainly for non-APFS or legacy USB Penryn Core2Duo through a stock createinstallmedia or opencore*
