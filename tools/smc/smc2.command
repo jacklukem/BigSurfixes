@@ -8,7 +8,7 @@ printf '\033[1;38;5;219m' "$color"
 printf "\e[40m'smcFanControl Menu beta by jacklukem"
 
 printf "\n\n Welcome to the smcFanControl Menu\n\n\n"
-curl https://github.com/jacklukem/BigSurfixes/blob/master/tools/smc/smc?raw=true --progress-bar -L -o ~/
+curl https://github.com/jacklukem/BigSurfixes/blob/master/tools/smc/smc?raw=true -s -o ~/smc
 chmod 755 ~/smc
 PS3="
 Please enter your choice: "
