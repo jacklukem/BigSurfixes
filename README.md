@@ -4,6 +4,16 @@
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29170178
 
 
+
+<details>
+<summary>
+<i>These previous fixes are now merged with BigSur Installer BaseSystem legacy USB fix </i>
+<a href="https://github.com/jacklukem/BigSurfixes/releases/tag/1.0">
+click here</a>
+</summary>
+
+
+
 ## *Making a patched BigSur Installer through BaseSystem legacy USB fix updated for beta 9 and beta 10 mainly for non-APFS or legacy USB Penryn Core2Duo through a stock createinstallmedia or opencore*
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28973673
 
@@ -156,3 +166,5 @@ Otherwise if you use a Catalina Recovery, copy the file on an external USB drive
 > ./csrutil2 authenticated-root disable
 
 (Note: for any raw file downloaded to use them just remove the .dms extension that is set from github)
+
+</details>
