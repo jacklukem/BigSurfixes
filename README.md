@@ -1,18 +1,15 @@
 # BigSurfixes
 
 ## `BigSur Installer BaseSystem fix` updated for 11.0.1 release candidate for non-APFS or legacy USB Penryn Core2Duo and Arrandale (also for other Intel Architectures) this new version contains many useful patching apps: https://github.com/jacklukem/BigSurfixes/releases/tag/1.0
-https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29170178
+<a href="https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29170178>
+click here</a>
 
 
 
 <details>
 <summary>
 <i>These previous fixes are now merged with BigSur Installer BaseSystem legacy USB fix </i>
-<a href="https://github.com/jacklukem/BigSurfixes/releases/tag/1.0">
-click here</a>
 </summary>
-
-
 
 ## *Making a patched BigSur Installer through BaseSystem legacy USB fix updated for beta 9 and beta 10 mainly for non-APFS or legacy USB Penryn Core2Duo through a stock createinstallmedia or opencore*
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-28973673
