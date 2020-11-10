@@ -162,6 +162,17 @@
 			<key>ARM-Only</key>
 			<false/>
 			<key>BundlePath</key>
+			<string>/Applications/BigSurFixesBootfix.app</string>
+			<key>Path</key>
+			<string>/Applications/BigSurFixesBootfix.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>BigSurFixes Boot plist fix</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
 			<string>/Applications/BigSurFixes.app</string>
 			<key>Path</key>
 			<string>/Applications/BigSurFixes.app/Contents/Resources/script</string>
@@ -277,6 +288,17 @@
 			<string>/Applications/OpenCoreAPFSloader4b1.app/Contents/MacOS/OpenCoreAPFSloader4b1</string>
 			<key>TitleKey</key>
 			<string>Update OC config 4b1 ACPI fix</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/OpenCoreAPFSloader3.app</string>
+			<key>Path</key>
+			<string>/Applications/OpenCoreAPFSloader3.app/Contents/MacOS/OpenCoreAPFSloader3</string>
+			<key>TitleKey</key>
+			<string>Install OpenCoreAPFSloader3</string>
 		</dict>
 
 	</array>
