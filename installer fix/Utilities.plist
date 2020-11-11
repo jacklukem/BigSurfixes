@@ -55,7 +55,7 @@
 			<key>Path</key>
 			<string>/Applications/Hax3.app/Contents/MacOS/Hax3</string>
 			<key>TitleKey</key>
-			<string>Hax3 fix</string>
+			<string>Hax3 Installer fix</string>
 		</dict>
 
 		<dict>
@@ -140,7 +140,7 @@
 			<key>BundlePath</key>
 			<string>/Applications/Hax3.app</string>
 			<key>Path</key>
-			<string>/Applications/Hax3.app/Contents/Resources/script</string>
+			<string>/Applications/Hax3.app/Contents/Resources/hax3</string>
 			<key>TitleKey</key>
 			<string>Hax3 Installer quick fix</string>
 		</dict>
@@ -244,6 +244,17 @@
 			<string>/Applications/BigSurFixesiSight.app/Contents/Resources/script</string>
 			<key>TitleKey</key>
 			<string>BigSurFixes iSight camera fix</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/BigSurFixesFramework.app</string>
+			<key>Path</key>
+			<string>/Applications/BigSurFixesFramework.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>BigSurFixes Frameworks patch</string>
 		</dict>
 
 		<dict>
