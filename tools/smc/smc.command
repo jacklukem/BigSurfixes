@@ -10,7 +10,7 @@ printf "\e[40m'smcFanControl Menu beta by jacklukem"
 printf "\n\n Welcome to the smcFanControl Menu\n\n\n"
 PS3="
 Please enter your choice: "
-options=("Detect current CPU Cores average temp" "Maximise Fans RPM speed for CPU cooling" "Set Fans RPM speed to automatic default" "Set Fans RPM quieter and balanced for CPU cooling" "For Ivy Bridge or later" "Quit")
+options=("Detect current CPU Cores average temp" "Maximise Fans RPM speed for CPU cooling" "Set Fans RPM speed to automatic default" "Set Fans RPM quieter and balanced for CPU cooling" "CPU temp for Ivy Bridge" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
