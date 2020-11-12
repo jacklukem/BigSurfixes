@@ -7,10 +7,10 @@ printf '\033[1;38;5;219m' "$color"
 
 printf "\e[40m'smcFanControl Menu beta by jacklukem"
 
-printf "\n\n Welcome to the smcFanControl Menu\n\n\n"
+printf "\n\n Welcome to the smcFanControl Ivy Bridge Menu\n\n\n"
 PS3="
 Please enter your choice: "
-options=("Detect current CPU Cores average temp" "Maximise Fans RPM speed for CPU cooling" "Set Fans RPM speed to automatic default" "Set Fans RPM quieter and balanced for CPU cooling" "Quit")
+options=("Detect current CPU Cores average temp" "Maximise Fans RPM speed for CPU cooling" "Set Fans RPM speed to automatic default" "Set Fans RPM quieter and balanced for CPU cooling" "Return")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -75,6 +75,7 @@ do
 	    echo "\nDone\n\npress enter to show menu\ntype 5 to exit"
             ;;
         "Quit")
+            echo "\n\ntype 5 for previous menu , then type 6 to exit"
             break
             ;;
         *) echo "invalid option $REPLY \n\npress enter to show menu\ntype 5 to exit";;

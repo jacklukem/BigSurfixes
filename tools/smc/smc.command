@@ -10,7 +10,7 @@ printf "\e[40m'smcFanControl Menu beta by jacklukem"
 printf "\n\n Welcome to the smcFanControl Menu\n\n\n"
 PS3="
 Please enter your choice: "
-options=("Detect current CPU Cores average temp" "Maximise Fans RPM speed for CPU cooling" "Set Fans RPM speed to automatic default" "Set Fans RPM quieter and balanced for CPU cooling" "Quit")
+options=("Detect current CPU Cores average temp" "Maximise Fans RPM speed for CPU cooling" "Set Fans RPM speed to automatic default" "Set Fans RPM quieter and balanced for CPU cooling" "For Ivy Bridge or later" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -22,7 +22,7 @@ do
             CPUaverageT=${CPUaverageT%.*}
             CPUdegF=$[ $CPUaverageT * 9 / 5 + 32 ]
             echo "\n\nCurrent CPU average temperature is $CPUaverageT °C (Celsius)\nThis is current value converted in $CPUdegF °F (Fahrenheit)"
-	    echo "\n\nDone\n\npress enter to show menu\ntype 5 to exit"
+	    echo "\n\nDone\n\npress enter to show menu\ntype 6 to exit"
             ;;
         "Maximise Fans RPM speed for CPU cooling")
             printf '\033[1;38;5;159m'
@@ -31,14 +31,14 @@ do
 	    ~/*/smc/smc -k F0Tg -w 5dc0
             ~/*/smc/smc -k F1Tg -w 5dc0
             ~/*/smc/smc -f
-	    echo "\nDone\n\npress enter to show menu\ntype 5 to exit"
+	    echo "\nDone\n\npress enter to show menu\ntype 6 to exit"
             ;;
         "Set Fans RPM speed to automatic default")
             printf '\033[1;38;5;154m'
             printf "\nSetting Fans 2000 RPM speed to automatic default\n"
 	    ~/*/smc/smc -k "FS! " -w 0000
             ~/*/smc/smc -f
-	    echo "\nDone\n\npress enter to show menu\ntype 5 to exit"
+	    echo "\nDone\n\npress enter to show menu\ntype 6 to exit"
             ;;
         "Set Fans RPM quieter and balanced for CPU cooling")
             printf '\033[1;38;5;75m'
@@ -72,11 +72,14 @@ do
 	    ~/*/smc/smc -k F1Tg -w 60e0
             fi
             ~/*/smc/smc -f
-	    echo "\nDone\n\npress enter to show menu\ntype 5 to exit"
+	    echo "\nDone\n\npress enter to show menu\ntype 6 to exit"
+            ;;
+        "CPU temp for Ivy Bridge")
+            ~/*/smc/smc2.command
             ;;
         "Quit")
             break
             ;;
-        *) echo "invalid option $REPLY \n\npress enter to show menu\ntype 5 to exit";;
+        *) echo "invalid option $REPLY \n\npress enter to show menu\ntype 6 to exit";;
     esac
 done
