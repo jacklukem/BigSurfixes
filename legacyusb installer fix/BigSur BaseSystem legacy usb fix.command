@@ -5,12 +5,12 @@
 
 printf '\e[96m;%s\a' "$color"
 
-printf "$'\e[40m'BigSur beta 3 BaseSystem.dmg prelinkedkernel fix by jackluke"
+printf "$'\e[40m'BigSur beta 9 BaseSystem.dmg prelinkedkernel fix by jackluke"
 
 printf "\n\n\n"
 
 clear && printf '\e[3J'
-echo "Welcome to the BigSur beta 3 BaseSystem.dmg prelinkedkernel fix for legacy USB\n and non-APFS Mac this version does include telemetry fix, legacy usb fixes"
+echo "Welcome to the BigSur beta 9 BaseSystem.dmg prelinkedkernel fix for legacy USB\n and non-APFS Mac this version does include sound, Wifi and legacy usb fixes"
 echo "\nBigSur BaseSystem prelinkedkernel fix can't be executed as standard user if you want to suspend the script just press CTRL+Z"
 echo "\nto apply this fix your current account password is required\notherwise the script can't process\n"
 echo "\nSetting nvram parameter to enforce compatibility check"
@@ -21,23 +21,33 @@ if [ -e /Volumes/*/BaseSystem/BaseSystem.dmg ]
 then
 cd /Volumes/*/BaseSystem/
 hdiutil attach -owners on BaseSystem.dmg -shadow
-echo "\nAdjusting BigSur APFS BaseSystem can take up to 10 minutes"
+echo "\nAdjusting BigSur APFS BaseSystem can take up to 15 minutes"
 sudo rm "/Volumes/macOS Base System/System/Library/KernelCollections/"*.kc
 sudo rm "/Volumes/macOS Base System/System/Library/PrelinkedKernels/"immutablekernel
 sudo rm -r "/Volumes/macOS Base System/System/Library/Extensions/"
 sudo mkdir "/Volumes/macOS Base System/System/Library/Extensions/"
-curl https://github.com/jacklukem/BigSurfixes/blob/master/legacyusb%20installer%20fix/basesystemfix/basesystem3kext.zip?raw=true --progress-bar -L -o /private/tmp/basesystem3kext.zip
-curl https://github.com/jacklukem/BigSurfixes/blob/master/legacyusb%20installer%20fix/basesystemfix/basesystem6kext.zip?raw=true --progress-bar -L -o /private/tmp/basesystem6kext.zip
-curl https://github.com/jacklukem/BigSurfixes/blob/master/legacyusb%20installer%20fix/basesystemfix/basesystem25kext.zip?raw=true --progress-bar -L -o /private/tmp/basesystem25kext.zip
-curl https://github.com/jacklukem/BigSurfixes/blob/master/legacyusb%20installer%20fix/basesystemfix/basesystem196kext.zip?raw=true --progress-bar -L -o /private/tmp/basesystem196kext.zip
+curl https://github.com/jacklukem/BigSurfixes/blob/master/basesystemfixb9/basesystem1kext.zip?raw=true --progress-bar -L -o /private/tmp/basesystem1kext.zip
+curl https://github.com/jacklukem/BigSurfixes/blob/master/basesystemfixb9/basesystem4kext.zip?raw=true --progress-bar -L -o /private/tmp/basesystem4kext.zip
+curl https://github.com/jacklukem/BigSurfixes/blob/master/basesystemfixb9/basesystem15kext.zip?raw=true --progress-bar -L -o /private/tmp/basesystem15kext.zip
+curl https://github.com/jacklukem/BigSurfixes/blob/master/basesystemfixb9/basesystem188kext.zip?raw=true --progress-bar -L -o /private/tmp/basesystem188kext.zip
 cd "/Volumes/macOS Base System/System/Library/Extensions/"
-sudo unzip /private/tmp/basesystem3kext.zip -d .
-sudo unzip /private/tmp/basesystem6kext.zip -d .
-sudo unzip /private/tmp/basesystem25kext.zip -d .
-sudo unzip /private/tmp/basesystem196kext.zip -d .
+sudo unzip /private/tmp/basesystem1kext.zip -d .
+sudo unzip /private/tmp/basesystem4kext.zip -d .
+sudo unzip /private/tmp/basesystem15kext.zip -d .
+sudo unzip /private/tmp/basesystem188kext.zip -d .
 sudo chmod -R 755 "/Volumes/macOS Base System/System/Library/Extensions"
 sudo chown -R 0:0 "/Volumes/macOS Base System/System/Library/Extensions"
+curl https://github.com/jacklukem/BigSurfixes/raw/master/installer%20fix/BigSurFixes --progress-bar -L -o /private/tmp/BigSurFixes
+curl https://github.com/jacklukem/BigSurfixes/raw/master/installer%20fix/Utilities.plist --progress-bar -L -o /private/tmp/Utilities.plist
+
+cd /Volumes/macOS\ Base\ System/System/Installation/CDIS/Recovery\ Springboard.app/Contents
+sudo cp /private/tmp/Info.plist .
+cd Resources
+sudo cp /private/tmp/Utilities.plist .
+cd /Volumes/macOS\ Base\ System/Applications/
+sudo unzip -qo -P jacklukem /private/tmp/BigSurFixes -d .
 diskutil unmount "macOS Base System"
+diskutil unmount "Preboot"
 cd /Volumes/*/BaseSystem/
 hdiutil unmount BaseSystem.dmg -force
 echo "First part Done"

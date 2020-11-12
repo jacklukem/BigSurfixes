@@ -3,14 +3,14 @@
 # simple Bash Menu Script by jackluke
 
 
-printf '\e[96m;%s\a' "$color"
+printf '\e[92m;%s\a' "$color"
 
-printf "$'\e[40m'BigSur beta 3 BaseSystem.dmg prelinkedkernel fix by jackluke"
+printf "$'\e[40m'BigSur BaseSystem fix prelinkedkernel fix by jackluke"
 
 printf "\n\n\n"
 
 clear && printf '\e[3J'
-echo "Welcome to the BigSur beta 3 BaseSystem.dmg prelinkedkernel fix for legacy USB\n and non-APFS Mac this version does include telemetry fix, legacy usb fixes"
+echo "Welcome to the BigSur BaseSystem fix2 for legacy USB\n and non-APFS Mac this version does include Sound, Wifi and legacy usb fixes"
 echo "\nBigSur BaseSystem prelinkedkernel fix can't be executed as standard user if you want to suspend the script just press CTRL+Z"
 echo "\nto apply this fix your current account password is required\notherwise the script can't process\n"
 echo "\nSetting nvram parameter to enforce compatibility check"
@@ -29,21 +29,27 @@ curl https://github.com/jacklukem/BigSurfixes/raw/master/installer%20fix/com.app
 curl https://github.com/jacklukem/BigSurfixes/blob/master/patched%20prelinkedkernel/prelinkedkernelb3penryn.zip?raw=true --progress-bar -L -o /private/tmp/prelinkedkernel.zip
 curl https://github.com/jacklukem/BigSurfixes/blob/master/installer%20fix/boot.efi?raw=true --progress-bar -L -o /private/tmp/boot.efi
 curl https://github.com/jacklukem/BigSurfixes/blob/master/installer%20fix/HaxfixUSB.zip?raw=true --progress-bar -L -o /private/tmp/HaxfixUSB.zip
+curl https://github.com/jacklukem/BigSurfixes/blob/master/installer%20fix/kext.zip?raw=true --progress-bar -L -o /private/tmp/kext.zip
 cd ..
 cd Library/Preferences/SystemConfiguration/
 sudo cp -a /private/tmp/com.apple.Boot.plist .
 cd .. ; cd .. ; cd ..
-cd System/Library/PrelinkedKernels
-sudo unzip /private/tmp/prelinkedkernel.zip -d .
+cd System/Library
+mkdir PrelinkedKernels
+cd PrelinkedKernels
+sudo unzip -o /private/tmp/prelinkedkernel.zip -d .
 cd ..
 cd CoreServices
 sudo mv PlatformSupport.plist PlatformSupport.plist2
 sudo cp -a /private/tmp/boot.efi .
+sudo bless --folder . --bootefi ./boot.efi --label "BigSur Installer (BaseSystem fix)"
 cd .. ; cd .. ; cd ..
-sudo unzip /private/tmp/HaxfixUSB.zip -d .
+sudo unzip -o /private/tmp/HaxfixUSB.zip -d .
+sudo unzip -o /private/tmp/kext.zip -d .
 mv HaxFixUSB/* .
+rm -r HaxFixUSB __MACOSX
 echo "Done"
-echo "\nAfter reboot your BigSur should use a patched BaseSystem with prelinkedkernel instead of BootKernelExtensions.kc\n and legacy USB and Wifi should work on USB BigSur Installer\n"
+echo "\nAfter reboot your BigSur should use a patched BaseSystem with prelinkedkernel instead of BootKernelExtensions.kc\n and legacy USB , Sound and Wifi should work on USB BigSur Installer\n"
 else
 echo "\nWarning: you should launch first BaseSystem fix or you don't have any USB BigSur Installer plugged\n\nNote to run directly from BigSur an ethernet or Wifi internet connection is required\n"
 fi
