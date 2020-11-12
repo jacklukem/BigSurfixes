@@ -74,7 +74,7 @@ do
             ~/*/smc/smc -f
 	    echo "\nDone\n\npress enter to show menu\ntype 5 to exit"
             ;;
-        "Quit")
+        "Return")
             echo "\n\ntype 5 for previous menu , then type 6 to exit"
             break
             ;;
