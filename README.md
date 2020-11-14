@@ -5,6 +5,8 @@
 Quick guide:
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSurBaseSystemfix.pdf
 
+![alt text](https://github.com/jacklukem/BigSurfixes/blob/master/BigSurFixes%20table.png)
+
 <a href="https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29170178">
   
 ![alt text](https://github.com/jacklukem/BigSurfixes/blob/master/installer%20fix/BaseSystem%20fix%20icon.jpeg?raw=true)
