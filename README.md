@@ -8,8 +8,6 @@
 
 click here for more detail</a>
 
-![alt text](https://github.com/jacklukem/BigSurfixes/releases/download/1.0/BigSurBaseSystemfix.pdf)
-
 <details>
 <summary>
 <i>These previous fixes are now merged with BigSur Installer BaseSystem legacy USB fix </i>
