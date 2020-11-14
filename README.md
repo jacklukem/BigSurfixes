@@ -8,6 +8,7 @@
 
 click here for more detail</a>
 
+https://github.com/jacklukem/BigSurfixes/releases/download/1.0/BigSurBaseSystemfix.pdf
 
 <details>
 <summary>
