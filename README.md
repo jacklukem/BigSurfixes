@@ -176,3 +176,5 @@ Otherwise if you use a Catalina Recovery, copy the file on an external USB drive
 
 
 </details>
+
+additional tips if you can't boot the BaseSystem fix: https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29214703
