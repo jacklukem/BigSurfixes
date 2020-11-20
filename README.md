@@ -188,4 +188,4 @@ Currently for non-APFS firmware Mac with legacy USB host external target while s
 
 without a Metal GPU currently graphics rendering is enough slow, but there are some workaround to improve a bit performance:
 - from Accessibility menu (Display) enable "Reduce Motion" and "Reduce Transparency"
-- to disable other animations try these: https://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x
+- to disable other animations (example minimizing a window) try these: https://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x
