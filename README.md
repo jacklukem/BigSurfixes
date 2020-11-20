@@ -178,3 +178,9 @@ Otherwise if you use a Catalina Recovery, copy the file on an external USB drive
 </details>
 
 additional tips if you can't boot the BaseSystem fix: https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29214703
+
+Currently for non-APFS firmware Mac with legacy USB host external target while stage2 installer has been fixed, there is still an issue with stage3 installer, this occurs with a clean BigSur installation, here are some explaination to workaround this issue :
+
+- currently to use stage2 and stage3 installer without fixes (or simply through OpenCore) on those non-APFS Mac you should install BigSur on internal SATA disk, then through CCC or BigSur DiskUtility you can clone the installed BigSur to external USB and it will work after applied the "BigSurFixes legacy USB patches"
+- you could even install BigSur on internal SATA disk, then unplug and plug it externally through USB and it will work
+- The stage3 installer on external USB target is skippable or fixable when updating a previous already installed Catalina or BigSur, because it requires an already done apple setup (to fix the apfs firmlinks issues)
