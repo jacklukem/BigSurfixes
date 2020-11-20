@@ -9,6 +9,8 @@ https://github.com/jacklukem/BigSurfixes/blob/master/BigSurBaseSystemfix.pdf
 
 additional tips if you can't boot the BaseSystem fix: https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29214703
 
+Arrandale i5 i7 (MacBookPro), Clarksdale i3 and Lynnfield i5 i7 (iMac), Nehalem and Westmere (MacPro) Intel architecture cpus are now supported but require OpenCore with khronokernel patch also included on BaseSystemfix (Update OC config 4b1) or can download from here to use an external USBopencore: https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29138842
+
 Currently for non-APFS firmware Mac when installing on external legacy USB host target, while stage2 installer has been fixed, there is still an issue with stage3 installer, this occurs with a clean BigSur installation, here are some explaination to workaround this issue :
 
 - for a clean install on external legacy USB target, try to erase the disk as HFS+ (then the "stage2 installer fix" should auto convert to APFS)
