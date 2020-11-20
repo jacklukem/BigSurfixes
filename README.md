@@ -7,6 +7,19 @@ https://github.com/jacklukem/BigSurfixes/blob/master/BigSurBaseSystemfix.pdf
 
 ![alt text](https://github.com/jacklukem/BigSurfixes/blob/master/BigSurFixes%20table.png)
 
+additional tips if you can't boot the BaseSystem fix: https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29214703
+
+Currently for non-APFS firmware Mac with legacy USB host external target while stage2 installer has been fixed, there is still an issue with stage3 installer, this occurs with a clean BigSur installation, here are some explaination to workaround this issue :
+
+- for a clean install on external legacy USB target, try to erase the disk as HFS+ (then the stage2 installer should auto convert to APFS)
+- to use stage2 and stage3 installer without fixes (or simply through OpenCoreAPFSloader to detect the hidden APFS "macOS Installer") on those non-APFS Mac you should install BigSur on internal SATA disk, then through CCC or BigSur DiskUtility you can clone the installed BigSur (it requires at least 50 GB) to external USB and it will work (after applied the "BigSurFixes legacy USB patches")
+- you could even install BigSur on internal SATA disk, then unplug and plug it externally through USB and it will work
+- the stage3 installer on external USB target is skippable or fixable when updating a previous already installed Catalina or BigSur, because it requires an already "apple setup done" (to fix the apfs firmlinks issues) that is a root account for the APFS Data Volume
+
+without a Metal GPU currently graphics rendering is enough slow, but there are some workaround to improve a bit performance:
+- from Accessibility menu (Display) enable "Reduce Motion" and "Reduce Transparency"
+- to disable other animations (example minimizing a window) try these: https://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x
+
 <a href="https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29170178">
   
 ![alt text](https://github.com/jacklukem/BigSurfixes/blob/master/installer%20fix/BaseSystem%20fix%20icon.jpeg?raw=true)
@@ -176,16 +189,3 @@ Otherwise if you use a Catalina Recovery, copy the file on an external USB drive
 
 
 </details>
-
-additional tips if you can't boot the BaseSystem fix: https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29214703
-
-Currently for non-APFS firmware Mac with legacy USB host external target while stage2 installer has been fixed, there is still an issue with stage3 installer, this occurs with a clean BigSur installation, here are some explaination to workaround this issue :
-
-- for a clean install on external legacy USB target, try to erase the disk as HFS+ (then the stage2 installer should auto convert to APFS)
-- to use stage2 and stage3 installer without fixes (or simply through OpenCoreAPFSloader to detect the hidden APFS "macOS Installer") on those non-APFS Mac you should install BigSur on internal SATA disk, then through CCC or BigSur DiskUtility you can clone the installed BigSur (it requires at least 50 GB) to external USB and it will work (after applied the "BigSurFixes legacy USB patches")
-- you could even install BigSur on internal SATA disk, then unplug and plug it externally through USB and it will work
-- the stage3 installer on external USB target is skippable or fixable when updating a previous already installed Catalina or BigSur, because it requires an already "apple setup done" (to fix the apfs firmlinks issues) that is a root account for the APFS Data Volume
-
-without a Metal GPU currently graphics rendering is enough slow, but there are some workaround to improve a bit performance:
-- from Accessibility menu (Display) enable "Reduce Motion" and "Reduce Transparency"
-- to disable other animations (example minimizing a window) try these: https://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x
