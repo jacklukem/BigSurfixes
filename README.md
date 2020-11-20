@@ -187,5 +187,5 @@ Currently for non-APFS firmware Mac with legacy USB host external target while s
 - the stage3 installer on external USB target is skippable or fixable when updating a previous already installed Catalina or BigSur, because it requires an already "apple setup done" (to fix the apfs firmlinks issues) that is a root account for the APFS Data Volume
 
 without a Metal GPU currently graphics rendering is enough slow, but there are some workaround to improve a bit performance:
-- from Accessibility menu to enable "Reduce Motion" and "Reduce Transparency"
+- from Accessibility menu (Display) enable "Reduce Motion" and "Reduce Transparency"
 - to disable other animations try these: https://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x
