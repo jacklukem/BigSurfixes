@@ -162,17 +162,6 @@
 			<key>ARM-Only</key>
 			<false/>
 			<key>BundlePath</key>
-			<string>/Applications/BigSurFixesBootfix.app</string>
-			<key>Path</key>
-			<string>/Applications/BigSurFixesBootfix.app/Contents/Resources/script</string>
-			<key>TitleKey</key>
-			<string>BigSurFixes Boot plist fix</string>
-		</dict>
-
-		<dict>
-			<key>ARM-Only</key>
-			<false/>
-			<key>BundlePath</key>
 			<string>/Applications/BigSurFixes.app</string>
 			<key>Path</key>
 			<string>/Applications/BigSurFixes.app/Contents/Resources/script</string>
@@ -244,6 +233,17 @@
 			<string>/Applications/BigSurFixesiSight.app/Contents/Resources/script</string>
 			<key>TitleKey</key>
 			<string>BigSurFixes iSight camera fix</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/BigSurFixesBootfix.app</string>
+			<key>Path</key>
+			<string>/Applications/BigSurFixesBootfix.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>BigSurFixes Continuity fix</string>
 		</dict>
 
 		<dict>
