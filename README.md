@@ -26,6 +26,9 @@ without a Metal GPU currently graphics rendering is enough slow, but there are s
 - from Accessibility menu (Display) enable "Reduce Motion" and "Reduce Transparency"
 - to disable other animations (example minimizing a window) try these: https://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x
 
+after made a patched BaseSystem Installer, you can use the same for any next beta releases, simply check that you have on Applications the newer "Install macOS Big Sur Beta.app" then open terminal and copy paste:
+`sudo cp /Applications/*.app/Contents/SharedSupport/SharedSupport.dmg /Volumes/Install macOS Big Sur*/*.app/Contents/SharedSupport/`
+
 <a href="https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29170178">
   
 ![alt text](https://github.com/jacklukem/BigSurfixes/blob/master/installer%20fix/BaseSystem%20fix%20icon.jpeg?raw=true)
