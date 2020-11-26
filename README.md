@@ -1,5 +1,7 @@
 # BigSurfixes
 
+## `BigSur Installer BaseSystem fix` updated for generic BigSur beta or to use as external recovery patcher: https://www.dropbox.com/s/p0c696odv0mujw8/bigsurbasesystemfix.dmg?dl=0
+
 ## `BigSur Installer BaseSystem fix` updated for 11.0.1 release candidate to work with non-APFS or legacy USB Penryn Core2Duo, Arrandale i3 i5 i7 (also for other Intel Architectures) this new version contains many useful patching apps: https://github.com/jacklukem/BigSurfixes/releases/ 
   
 Quick guide:
