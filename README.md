@@ -1,6 +1,6 @@
 # BigSurfixes
 
-## `BigSur Installer BaseSystem fix` updated for generic BigSur 11.x beta or to use as external recovery patcher, simply restore through DiskUtility this dmg (minimum requirement 1 GB USB , use instead a 16 GB USB to add the updated SharedSupport.dmg): https://www.dropbox.com/s/p0c696odv0mujw8/bigsurbasesystemfix.dmg?dl=0
+## `BigSurBaseSystemfix` external recovery patcher, updated for generic BigSur 11.x beta simply restore through DiskUtility this DMG (minimum requirement 1 GB USB for external recovery , use instead a 16 GB USB to add also the updated SharedSupport.dmg): https://www.dropbox.com/s/p0c696odv0mujw8/bigsurbasesystemfix.dmg?dl=0
 
 ## `BigSur Installer BaseSystem fix` updated for 11.0.1 release candidate to work with non-APFS or legacy USB Penryn Core2Duo, Arrandale i3 i5 i7 (also for other Intel Architectures) this new version contains many useful patching apps: https://github.com/jacklukem/BigSurfixes/releases/ 
   
