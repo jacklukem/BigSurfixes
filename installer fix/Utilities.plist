@@ -312,6 +312,17 @@
 			<string>Install OpenCoreAPFSloader3</string>
 		</dict>
 
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/OpenCoreAPFSloader4.app</string>
+			<key>Path</key>
+			<string>/Applications/OpenCoreAPFSloader4.app/Contents/Resources/uninstall</string>
+			<key>TitleKey</key>
+			<string>Uninstall OpenCoreAPFSloader</string>
+		</dict>
+
 	</array>
 </dict>
 </plist>
