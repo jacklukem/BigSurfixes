@@ -1,6 +1,6 @@
 # BigSurfixes
 
-## `BigSurBaseSystemfix` external recovery patcher, updated for generic BigSur 11.x beta simply restore through DiskUtility this DMG (minimum requirement 1 GB USB for external recovery , use instead a 16 GB USB to add also the updated SharedSupport.dmg): https://www.dropbox.com/s/p0c696odv0mujw8/bigsurbasesystemfix.dmg?dl=0
+## `BigSurBaseSystemfix` external recovery patcher, updated for generic BigSur 11.x beta, simply restore through DiskUtility this DMG to a minimum 1 GB USB for external recovery or a 16 GB USB to add also the updated SharedSupport.dmg: https://www.dropbox.com/s/p0c696odv0mujw8/bigsurbasesystemfix.dmg?dl=0
 
 after made a patched BaseSystem Installer, you can use the same for any next beta releases, simply check that you have on Applications the newer "Install macOS Big Sur Beta.app" then open terminal and copy paste:
 ```shell
