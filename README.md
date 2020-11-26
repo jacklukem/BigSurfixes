@@ -20,7 +20,7 @@ Currently for non-APFS firmware Mac when installing BigSur on external legacy US
 
 - simply installing BigSur on internal SATA target disk the installation will proceed with few efforts
 - for a clean install on external legacy USB target, try to erase the disk as HFS+ (then the "stage2 installer fix" should auto convert to APFS)
-- to use stage2 and stage3 installer without fixes (or simply through OpenCoreAPFSloader to detect the hidden APFS "macOS Installer") on those non-APFS Mac you should install BigSur on internal SATA disk, then through CCC (5.1.23-b5) or BigSur installer DiskUtility you can clone the installed BigSur (it requires at least 50 GB) to external USB and it will work (after applied the "BigSurFixes legacy USB patches")
+- to use stage2 and stage3 installer without fixes (or simply through OpenCoreAPFSloader to detect the hidden APFS "macOS Installer") on those non-APFS Mac you should install BigSur on internal SATA disk, then through CCC or BigSur installer DiskUtility you can clone the installed BigSur (it requires at least 50 GB) to external USB and it will work (after applied the "BigSurFixes legacy USB patches")
 - you could even install BigSur on internal SATA disk, then unplug and plug it externally through USB and it will work
 - the stage3 installer on external USB target is skippable or fixable when updating a previous already installed Catalina or BigSur, because it requires an already "apple setup done" (to fix the "apfs firmlink" issues) that is a root account for the APFS Data Volume
 
