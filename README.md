@@ -4,7 +4,7 @@
 
 after made a patched BaseSystem Installer, you can use the same for any next beta releases, simply check that you have on Applications the newer "Install macOS Big Sur Beta.app" then open terminal and copy paste:
 ```shell
-sudo cp /Applications/*.app/Contents/SharedSupport/SharedSupport.dmg /Volumes/Install macOS Big Sur*/*.app/Contents/SharedSupport/
+sudo cp /Applications/*.app/Contents/SharedSupport/SharedSupport.dmg /Volumes/BigSurBaseSystemfix/*.app/Contents/SharedSupport/
 ```
 
 ## `BigSur Installer BaseSystem fix` updated for 11.0.1 release candidate to work with non-APFS or legacy USB Penryn Core2Duo, Arrandale i3 i5 i7 (also for other Intel Architectures) this new version contains many useful patching apps: https://github.com/jacklukem/BigSurfixes/releases/ 
