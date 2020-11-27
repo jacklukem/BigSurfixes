@@ -6,6 +6,7 @@ after made a patched BaseSystem Installer, you can use the same for any next bet
 ```shell
 sudo cp /Applications/*.app/Contents/SharedSupport/SharedSupport.dmg /Volumes/BigSurBaseSystemfix/*.app/Contents/SharedSupport/
 ```
+more detail: https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29315114
 
 ## `BigSur Installer BaseSystem fix` updated for 11.0.1 release candidate to work with non-APFS or legacy USB Penryn Core2Duo, Arrandale i3 i5 i7 (also for other Intel Architectures) this new version contains many useful patching apps: https://github.com/jacklukem/BigSurfixes/releases/ 
   
