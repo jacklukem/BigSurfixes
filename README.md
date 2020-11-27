@@ -1,6 +1,6 @@
 # BigSurfixes
 
-## `BigSurBaseSystemfix` external recovery patcher, updated for generic BigSur 11.x beta, simply restore through DiskUtility this DMG to a minimum 1 GB USB for external recovery or a 16 GB USB to add also the updated Beta installer:
+## `BigSurBaseSystemfix` external recovery patcher, updated for generic BigSur 11.x beta, simply restore through DiskUtility this DMG to a minimum 1 GB USB for external recovery (or a 16 GB USB to add also the updated Beta installer):
 https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29315114
 
 
