@@ -1,7 +1,7 @@
 # BigSurfixes
 
 ## `BigSurBaseSystemfix` external recovery patcher, updated for generic BigSur 11.x beta, simply restore through DiskUtility this DMG to a minimum 1 GB USB drive (or a 16 GB USB to add also the updated Beta installer): [Dropbox link](https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29315114)
-besides DiskUtility you can use also its command line Apple Software Restore :
+besides DiskUtility you can use also its Apple Software Restore command line :
 ```shell
 sudo asr -source ~/Downloads/BigSurBaseSystemfix.dmg -erase -noverify -target /Volumes/YourUSBLabel
 ```
