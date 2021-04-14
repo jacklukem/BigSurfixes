@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+# BigSurDataUUID folder is located on diskXs3 (previously it matched with SystemUUID)
+# rename BigSurDataUUID as the output of : diskutil info diskXs1 | grep UUID
+
+	<key>Kernel Cache</key>
+	<string>\BigSurDataUUID\BootKernelExtensions.kc</string>
+	<key>Kernel Flags</key>
+	<string>root-dmg=file:///BigSurDataUUID/BaseSystem.dmg -no_compat_check amfi_get_out_of_my_way=1 -v</string>
+</dict>
+</plist>
