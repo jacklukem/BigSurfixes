@@ -30,7 +30,7 @@ curl https://github.com/jacklukem/BigSurfixes/raw/master/installer%20fix/com.app
 
 curl https://github.com/jacklukem/BigSurfixes/blob/master/installer%20fix/boot.efi?raw=true --progress-bar -L -o /private/tmp/boot.efi
 curl https://github.com/jacklukem/BigSurfixes/blob/master/installer%20fix/HaxfixUSB.zip?raw=true --progress-bar -L -o /private/tmp/HaxfixUSB.zip
-curl https://github.com/jacklukem/BigSurfixes/blob/master/installer%20fix/nonmetalkext.zip?raw=true --progress-bar -L -o /private/tmp/kext.zip
+curl https://github.com/jacklukem/BigSurfixes/blob/master/installer%20fix/kext.zip?raw=true --progress-bar -L -o /private/tmp/kext.zip
 cd ..
 cd Library/Preferences/SystemConfiguration/
 sudo cp -a /private/tmp/com.apple.Boot.plist .
