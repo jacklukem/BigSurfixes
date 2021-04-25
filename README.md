@@ -1,13 +1,13 @@
 # BigSurfixes
 
-## `BigSurBaseSystemfix` external recovery patcher (from here you can even delete the `com.apple.os.update` locked snapshot booting resulting in working `mount -uw /` to make any system modifications), updated for generic BigSur 11.x beta, simply restore through DiskUtility this DMG to a minimum 1 GB USB drive (or a 16 GB USB to add also the updated Beta installer): [Dropbox link](https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29315114)
+## `BigSurBaseSystemfix` external recovery patcher (from here you can even delete the `com.apple.os.update` locked snapshot booting resulting in a working `mount -uw /` to make any system modifications), updated for generic BigSur 11.x beta, simply restore through DiskUtility this DMG to a minimum 1 GB USB drive (or a 16 GB USB to add also the updated Beta installer): [Dropbox link](https://forums.macrumors.com/threads/macos-11-big-sur-on-unsupported-macs-thread.2242172/post-29315114)
 besides DiskUtility you can use also its Apple Software Restore command line :
 ```shell
 sudo asr -source ~/Downloads/BigSurBaseSystemfix.dmg -erase -noverify -target /Volumes/YourUSBLabel
 ```
 for an updated full installer:
-- restore the BigSurBaseSystemfix.dmg to a 16 GB USB empty drive
-- download any 11.x beta InstallAssistant.pkg and run it to make the unpacked apple "Install app" in its the default macOS (HighSierra, Mojave, Catalina, BigSur) Applications folder
+- restore the BigSurBaseSystemfix.dmg to a 16 GB USB empty drive (or to a 16 GB HFS+ partition external to an APFS container)
+- download any 11.x beta InstallAssistant.pkg (12,4 GB) and run it to make the unpacked apple "macOS Install app" (other additional 12,5 GB) in its the default macOS (HighSierra, Mojave, Catalina, BigSur) Applications folder
 - launch the [BigSurSharedSupportfix](https://forums.macrumors.com/attachments/bigsursharedsupportfix-zip.1680390/) that should automatically copy the updated 12,3 GB SharedSupport.dmg (that is where the stage2 installer is stored) to the 16 GB USB drive (that acts as an updated BaseSystemfix Installer)
 - at reboot from apple startup manager or any bootloader it should work to boot "BigSurBaseSystemfix" with an updated "stage2 macOS Installer", hence you can install current system
 
