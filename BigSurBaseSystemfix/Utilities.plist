@@ -127,6 +127,17 @@
 			<key>ARM-Only</key>
 			<false/>
 			<key>BundlePath</key>
+			<string>/Applications/kb.app</string>
+			<key>Path</key>
+			<string>/Applications/kb.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>Keyboard backlit enabler</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
 			<string>/Applications/smc.app</string>
 			<key>Path</key>
 			<string>/Applications/smc.app/Contents/Resources/script</string>
