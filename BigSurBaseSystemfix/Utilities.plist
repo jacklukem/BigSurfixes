@@ -138,6 +138,17 @@
 			<key>ARM-Only</key>
 			<false/>
 			<key>BundlePath</key>
+			<string>/Applications/spctl.app</string>
+			<key>Path</key>
+			<string>/Applications/spctl.app/Contents/Resources/script</string>
+			<key>TitleKey</key>
+			<string>Kernel Extensions Loading</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
 			<string>/Applications/smc.app</string>
 			<key>Path</key>
 			<string>/Applications/smc.app/Contents/Resources/script</string>
@@ -314,13 +325,13 @@
 
 		<dict>
 			<key>ARM-Only</key>
-			<true/>
+			<false/>
 			<key>BundlePath</key>
 			<string>/Applications/OpenCoreAPFSloader4b1.app</string>
 			<key>Path</key>
 			<string>/Applications/OpenCoreAPFSloader4b1.app/Contents/MacOS/OpenCoreAPFSloader4b1</string>
 			<key>TitleKey</key>
-			<string>Update OC config 4b1 ACPI fix</string>
+			<string>Update OC config 4b ACPI fix</string>
 		</dict>
 
 		<dict>
@@ -343,6 +354,28 @@
 			<string>/Applications/OpenCoreAPFSloader4.app/Contents/Resources/uninstall</string>
 			<key>TitleKey</key>
 			<string>Uninstall OpenCoreAPFSloader</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/refind.app</string>
+			<key>Path</key>
+			<string>/Applications/refind.app/Contents/MacOS/refind</string>
+			<key>TitleKey</key>
+			<string>Install Refindplus</string>
+		</dict>
+
+		<dict>
+			<key>ARM-Only</key>
+			<false/>
+			<key>BundlePath</key>
+			<string>/Applications/refind.app</string>
+			<key>Path</key>
+			<string>/Applications/refind.app/Contents/Resources/uninstall</string>
+			<key>TitleKey</key>
+			<string>Uninstall Refindplus</string>
 		</dict>
 
 	</array>
