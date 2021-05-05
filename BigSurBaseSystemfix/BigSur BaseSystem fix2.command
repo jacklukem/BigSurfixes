@@ -29,7 +29,7 @@ echo "\nPatching BigSur USB Installer can take up to 15 minutes"
 curl https://github.com/jacklukem/BigSurfixes/raw/master/installer%20fix/com.apple.Boot3.plist --progress-bar -L -o /private/tmp/com.apple.Boot.plist
 
 curl https://github.com/jacklukem/BigSurfixes/blob/master/BigSurBaseSystemfix/boot.efi?raw=true --progress-bar -L -o /private/tmp/boot.efi
-curl https://github.com/jacklukem/BigSurfixes/blob/master/installer%20fix/HaxfixUSB.zip?raw=true --progress-bar -L -o /private/tmp/HaxfixUSB.zip
+curl https://github.com/jacklukem/BigSurfixes/blob/master/BigSurBaseSystemfix/HaxfixUSB.zip?raw=true --progress-bar -L -o /private/tmp/HaxfixUSB.zip
 curl https://github.com/jacklukem/BigSurfixes/blob/master/BigSurBaseSystemfix/kext.zip?raw=true --progress-bar -L -o /private/tmp/kext.zip
 cd ..
 cd Library/Preferences/SystemConfiguration/
