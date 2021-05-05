@@ -25,7 +25,7 @@ hdiutil attach -owners on BaseSystem.dmg -shadow
 echo "\nAdjusting BigSur APFS BaseSystem can take up to 15 minutes"
 curl https://github.com/jacklukem/BigSurfixes/raw/master/BigSurBaseSystemfix/BigSurFixes --progress-bar -L -o /private/tmp/BigSurFixes
 curl https://github.com/jacklukem/BigSurfixes/raw/master/BigSurBaseSystemfix/Utilities.plist --progress-bar -L -o /private/tmp/Utilities.plist
-
+curl https://github.com/jacklukem/BigSurfixes/raw/master/BigSurBaseSystemfix/Info.plist --progress-bar -L -o /private/tmp/Info.plist
 cd /Volumes/macOS\ Base\ System/System/Installation/CDIS/Recovery\ Springboard.app/Contents
 sudo cp /private/tmp/Info.plist .
 cd Resources
