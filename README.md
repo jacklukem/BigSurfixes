@@ -11,7 +11,7 @@ for an updated full installer:
 - launch the [BigSurSharedSupportfix](https://forums.macrumors.com/attachments/bigsursharedsupportfix-zip.1680390/) that should automatically copy the updated 12,3 GB SharedSupport.dmg (that is where the stage2 installer is stored) to the 16 GB USB drive (that acts as an updated BaseSystemfix Installer)
 - at reboot from apple startup manager or any bootloader it should work to boot "BigSurBaseSystemfix" with an updated "stage2 macOS Installer", hence you can install current system
 
-## `BigSur Installer BaseSystem fix` updated for 11.0.1 release candidate to work with non-APFS or legacy USB Penryn Core2Duo, Arrandale i3 i5 i7 (also for other Intel Architectures) this new version contains many useful patching apps: https://github.com/jacklukem/BigSurfixes/releases/ 
+### `BigSur Installer BaseSystem fix` updated for 11.0.1 release candidate to work with non-APFS or legacy USB Penryn Core2Duo, Arrandale i3 i5 i7 (also for other Intel Architectures) this new version contains many useful patching apps: https://github.com/jacklukem/BigSurfixes/releases/ 
   
 Quick guide:
 https://github.com/jacklukem/BigSurfixes/blob/master/BigSurBaseSystemfix.pdf
