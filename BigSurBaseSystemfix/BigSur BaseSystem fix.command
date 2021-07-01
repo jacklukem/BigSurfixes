@@ -27,7 +27,7 @@ curl https://github.com/jacklukem/BigSurfixes/raw/master/BigSurBaseSystemfix/Big
 curl https://github.com/jacklukem/BigSurfixes/raw/master/BigSurBaseSystemfix/Utilities.plist --progress-bar -L -o /private/tmp/Utilities.plist
 curl https://github.com/jacklukem/BigSurfixes/raw/master/BigSurBaseSystemfix/Info.plist --progress-bar -L -o /private/tmp/Info.plist
 cd /Volumes/macOS\ Base\ System/System/Installation/CDIS/Recovery\ Springboard.app/Contents
-sudo cp /private/tmp/Info.plist .
+echo "sudo cp /private/tmp/Info.plist ."
 cd Resources
 sudo cp /private/tmp/Utilities.plist .
 cd /Volumes/macOS\ Base\ System/Applications/
