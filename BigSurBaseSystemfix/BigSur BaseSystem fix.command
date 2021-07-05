@@ -17,9 +17,9 @@ echo "\nSetting nvram parameter to enforce compatibility check"
 sudo nvram boot-args="-no_compat_check amfi_get_out_of_my_way=1"
 echo "Done"
 echo "\nDetecting and adjusting BigSur APFS BaseSystem"
-if [ -e /Volumes/*/BaseSystem/BaseSystem.dmg ]
+if [ -e /Volumes/Install\ macOS\ Big\ Sur*/BaseSystem/BaseSystem.dmg ]
 then
-cd /Volumes/*/BaseSystem/
+cd /Volumes/Install\ macOS\ Big\ Sur*/BaseSystem/
 rm BaseSystem.dmg.shadow
 hdiutil attach -owners on BaseSystem.dmg -shadow
 echo "\nAdjusting BigSur APFS BaseSystem can take up to 15 minutes"

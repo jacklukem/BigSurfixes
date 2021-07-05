@@ -17,9 +17,9 @@ echo "\nSetting nvram parameter to enforce compatibility check"
 sudo nvram boot-args="-no_compat_check amfi_get_out_of_my_way=1"
 echo "Done"
 echo "\nDetecting and adjusting BigSur APFS BaseSystem"
-if [ -e /Volumes/*/BaseSystem/BaseSystem.dmg.shadow ]
+if [ -e /Volumes/Install\ macOS\ Big\ Sur*/BaseSystem/BaseSystem.dmg.shadow ]
 then
-cd /Volumes/*/BaseSystem/
+cd /Volumes/Install\ macOS\ Big\ Sur*/BaseSystem/
 hdiutil convert -format ULFO -o ~/Downloads/BaseSystem2.dmg BaseSystem.dmg -shadow
 mv BaseSystem.dmg BaseSystembackup.dmg
 rm BaseSystem.dmg.shadow
