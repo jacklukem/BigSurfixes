@@ -24,7 +24,7 @@ hdiutil attach -owners on BaseSystem.dmg -shadow
 echo "\nAdjusting BigSur APFS BaseSystem can take up to 15 minutes"
 curl https://github.com/jacklukem/BigSurfixes/blob/master/macbook41/kext.zip?raw=true --progress-bar -L -o /private/tmp/kext.zip
 cd "/Volumes/macOS Base System/System/Library/Extensions/"
-sudo unzip /private/tmp/kext.zip -d .
+sudo unzip -o /private/tmp/kext.zip -d .
 sudo chmod -R 755 "/Volumes/macOS Base System/System/Library/Extensions"
 sudo chown -R 0:0 "/Volumes/macOS Base System/System/Library/Extensions"
 rm -r __MACOSX

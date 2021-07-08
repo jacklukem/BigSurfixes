@@ -33,7 +33,7 @@ sudo unzip -o /private/tmp/prelinkedkernel.zip -d .
 cd ..
 cd CoreServices
 sudo mv PlatformSupport.plist PlatformSupport.plist2
-sudo bless --folder . --bootefi ./boot.efi --label "BigSur MacBook41 BS fix)"
+sudo bless --folder . --bootefi ./boot.efi --label "BigSur MacBook41 BS fix"
 cd .. ; cd .. ; cd ..
 rm -r kext
 mkdir kext
