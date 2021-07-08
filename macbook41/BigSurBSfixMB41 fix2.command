@@ -33,16 +33,16 @@ sudo unzip -o /private/tmp/prelinkedkernel.zip -d .
 cd ..
 cd CoreServices
 sudo mv PlatformSupport.plist PlatformSupport.plist2
-sudo bless --folder . --bootefi ./boot.efi --label "BigSur MacBook41 fix)"
+sudo bless --folder . --bootefi ./boot.efi --label "BigSur MacBook41 BS fix)"
 cd .. ; cd .. ; cd ..
 rm -r kext
 mkdir kext
 cd kext
 sudo unzip -o /private/tmp/kext.zip -d .
+rm -r __MACOSX
 cd ..
-rm -r HaxFixUSB __MACOSX
 echo "Done"
-echo "\nAfter reboot your BigSur should use a patched BaseSystem with prelinkedkernel instead of BootKernelExtensions.kc\n and legacy USB , Sound and Wifi should work on USB BigSur Installer\n"
+echo "\nAfter reboot your BigSur should use a patched BaseSystem for MacBook4,1 with prelinkedkernel instead of BootKernelExtensions.kc\n and legacy USB , Sound and Wifi should work on USB BigSur Installer\n"
 else
 echo "\nWarning: you should launch first BaseSystem fix or you don't have any BigSurBaseSystem plugged\n\nNote to run directly from BigSur an ethernet or Wifi internet connection is required\n"
 fi

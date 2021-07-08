@@ -27,9 +27,10 @@ cd "/Volumes/macOS Base System/System/Library/Extensions/"
 sudo unzip /private/tmp/kext.zip -d .
 sudo chmod -R 755 "/Volumes/macOS Base System/System/Library/Extensions"
 sudo chown -R 0:0 "/Volumes/macOS Base System/System/Library/Extensions"
+rm -r __MACOSX
 diskutil unmount "macOS Base System"
 diskutil unmount "Preboot"
-cd /Volumes/*/BaseSystem/
+cd /Volumes/BigSurBaseSystemfix/BaseSystem/
 hdiutil unmount BaseSystem.dmg -force
 echo "First part Done"
 echo "\nYou now should unplug and plug again your USB BigSur Installer\nthen launch the BaseSystem fix2 to complete the patching"
